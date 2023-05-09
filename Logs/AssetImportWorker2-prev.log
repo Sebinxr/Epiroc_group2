@@ -15,7 +15,7 @@ D:/Hyper Island/Industry Simulation/FlowTroPolis/flowtropolis_group2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-54947
+59644
 Successfully changed project path to: D:/Hyper Island/Industry Simulation/FlowTroPolis/flowtropolis_group2
 D:/Hyper Island/Industry Simulation/FlowTroPolis/flowtropolis_group2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,15 +47,15 @@ D:/Hyper Island/Industry Simulation/FlowTroPolis/flowtropolis_group2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18892] Host "[IP] 172.18.38.121 [Port] 0 [Flags] 2 [Guid] 2021912707 [EditorId] 2021912707 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27992] Host "[IP] 172.18.38.121 [Port] 0 [Flags] 2 [Guid] 247691186 [EditorId] 247691186 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18892] Host "[IP] 172.18.38.121 [Port] 0 [Flags] 2 [Guid] 2021912707 [EditorId] 2021912707 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27992] Host "[IP] 172.18.38.121 [Port] 0 [Flags] 2 [Guid] 247691186 [EditorId] 247691186 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Assets/Epiroc/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 83.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 99.61 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.99 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Hyper Island/Industry Simulation/FlowTroPolis/flowtropolis_group2/Assets
@@ -70,40 +70,40 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010358 seconds.
+Registered in 0.007599 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Assets/Epiroc/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 66.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 82.34 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.579 seconds
+- Completed reload, in  0.596 seconds
 Domain Reload Profiling:
-	ReloadAssembly (579ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (596ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (379ms)
-			LoadAssemblies (103ms)
+		EndReloadAssembly (396ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (79ms)
+			SetupTypeCache (88ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (236ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (243ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (54ms)
+				InitializePlatformSupportModulesInManaged (46ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (67ms)
+				RefreshPlugins (83ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (78ms)
 				ProcessInitializeOnLoadMethodAttributes (35ms)
@@ -113,40 +113,59 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007567 seconds.
+Registered in 0.009607 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Assets/Epiroc/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Refreshing native plugins compatible for Editor in 83.09 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Hyper Island\Industry Simulation\FlowTroPolis\flowtropolis_group2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Hyper Island\Industry Simulation\FlowTroPolis\flowtropolis_group2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <75633565436c42f0a6426b33f0132ade>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <75633565436c42f0a6426b33f0132ade>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <11d97693183d4a6bb35c29ae7882c66b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
 Mono: successfully reloaded assembly
-- Completed reload, in  8.949 seconds
+- Completed reload, in  1.205 seconds
 Domain Reload Profiling:
-	ReloadAssembly (8950ms)
-		BeginReloadAssembly (3662ms)
+	ReloadAssembly (1206ms)
+		BeginReloadAssembly (220ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (128ms)
-		EndReloadAssembly (4922ms)
-			LoadAssemblies (6224ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (886ms)
+			LoadAssemblies (109ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (808ms)
+			SetupTypeCache (229ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (1277ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (480ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (208ms)
-				ProcessInitializeOnLoadMethodAttributes (965ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 Assets/Epiroc/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
@@ -157,12 +176,12 @@ Assets/Epiroc/Excavator/Excavator.c4d: Unity no longer supports importing Cinema
 
 Please note that FBX files exported from Cinema4D are still supported.
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3361 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (113.9 KB). Loaded Objects now: 3820.
-Memory consumption went from 115.8 MB to 115.7 MB.
-Total: 3.015400 ms (FindLiveObjects: 0.229100 ms CreateObjectMapping: 0.165600 ms MarkObjects: 2.499400 ms  DeleteObjects: 0.120200 ms)
+Refreshing native plugins compatible for Editor in 0.93 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 4490 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (113.8 KB). Loaded Objects now: 4946.
+Memory consumption went from 163.0 MB to 162.9 MB.
+Total: 4.252500 ms (FindLiveObjects: 0.495600 ms CreateObjectMapping: 0.165500 ms MarkObjects: 3.422800 ms  DeleteObjects: 0.166000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -177,244 +196,52 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 81772.011979 seconds.
-  path: Assets/Mine/Models
-  artifactKey: Guid(83a5e1691a81dba4b9c3d3ed8bb41b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models using Guid(83a5e1691a81dba4b9c3d3ed8bb41b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d004d7bc78aca1d46f7fce79659518') in 0.021459 seconds 
+  Time since last request: 84528.120002 seconds.
+  path: Assets/Samples/XR Hands
+  artifactKey: Guid(74a4a4be48c9407458e80b3f0eca957d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Hands using Guid(74a4a4be48c9407458e80b3f0eca957d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db3085fb5e679a9d338ed43a85d9de7') in 0.014809 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.808551 seconds.
-  path: Assets/Mine/Models/Rocks
-  artifactKey: Guid(49781ee8395669748953a973e4915be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Rocks using Guid(49781ee8395669748953a973e4915be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ca10e05ad6811ed9d0df32b2b737c9') in 0.006493 seconds 
+  Time since last request: 0.881033 seconds.
+  path: Assets/Samples/XR Hands/1.1.0
+  artifactKey: Guid(26f00f5c8bae3964fad992f23e707b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Hands/1.1.0 using Guid(26f00f5c8bae3964fad992f23e707b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed343b125a1da4496036a9bf298f6ef') in 0.007048 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.069981 seconds.
-  path: Assets/Mine/Models/Rocks/Ore.fbx
-  artifactKey: Guid(483f930f7cf5dca46a4974b3a5f3231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Rocks/Ore.fbx using Guid(483f930f7cf5dca46a4974b3a5f3231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea563d7d3f789591d24fd4636dac2194') in 0.263560 seconds 
+  Time since last request: 8.134322 seconds.
+  path: Assets/XR
+  artifactKey: Guid(b78e1e29241f18e43b6bba8cf0672b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(b78e1e29241f18e43b6bba8cf0672b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1527fc850af306d58bc1772fe5e468') in 0.007171 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.634503 seconds.
-  path: Assets/Mine/Models/Props
-  artifactKey: Guid(b8a76a0c6d22a424a8b107bd327cba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Props using Guid(b8a76a0c6d22a424a8b107bd327cba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389bd7af930e0922d818225a45e9eece') in 0.006900 seconds 
+  Time since last request: 6.970708 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/XR Origin Pieces
+  artifactKey: Guid(f585a443d5224c19adcc94a236a4b2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/XR Origin Pieces using Guid(f585a443d5224c19adcc94a236a4b2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdf1738567c228c9e7a52f68efc93b9') in 0.006713 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.050660 seconds.
-  path: Assets/Mine/Models/Props/Crate.fbx
-  artifactKey: Guid(e99cbbc806612a7439df9a2d7b6cc1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Props/Crate.fbx using Guid(e99cbbc806612a7439df9a2d7b6cc1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555605ee38e3d3811257648ca3040de4') in 0.239693 seconds 
+  Time since last request: 0.073108 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/XR Origin Pieces/Direct Interactor.prefab
+  artifactKey: Guid(2fd3e07afe5b461490fb8e314976b1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/XR Origin Pieces/Direct Interactor.prefab using Guid(2fd3e07afe5b461490fb8e314976b1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cdc26130cd1b6bf8c7083c9c24ffdf') in 0.050785 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.676149 seconds.
-  path: Assets/Mine/Models/Props/Materials
-  artifactKey: Guid(d6689cc08289334408cd63f228e1653e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Props/Materials using Guid(d6689cc08289334408cd63f228e1653e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de5659e92b94876f43eed04294bdb5b') in 0.007203 seconds 
+  Time since last request: 1.581139 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Complete Teleport Area Set Up.prefab
+  artifactKey: Guid(3e07eccb5e6f459d886de95044adb1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Complete Teleport Area Set Up.prefab using Guid(3e07eccb5e6f459d886de95044adb1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5766ad947fe938f0198396f39d9ba05c') in 0.084300 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.046322 seconds.
-  path: Assets/Mine/Models/Props/Materials/Crate.mat
-  artifactKey: Guid(d44c31fba95ecf34c8bac49e8316a1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Props/Materials/Crate.mat using Guid(d44c31fba95ecf34c8bac49e8316a1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896a0eb2e7f264a41f3a3af6f659395c') in 0.061363 seconds 
+  Time since last request: 21.188587 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Interactables
+  artifactKey: Guid(6ac303adce39adb499d7f5c90a77c1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Interactables using Guid(6ac303adce39adb499d7f5c90a77c1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df257d86b99e750a7e778b83468ed78') in 0.008252 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Mine/Models/Props/Materials/Pickaxe_AlbedoTransparency.png
-  artifactKey: Guid(7a538c8d5a7f4a541b174a0f47232036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Props/Materials/Pickaxe_AlbedoTransparency.png using Guid(7a538c8d5a7f4a541b174a0f47232036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52afe7749c3491fa5a9cd555255eccab') in 0.048619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Mine/Models/Props/Materials/Wood_AlbedoSmoothness.png
-  artifactKey: Guid(b48461d00395344418cf1b5acbabb39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Props/Materials/Wood_AlbedoSmoothness.png using Guid(b48461d00395344418cf1b5acbabb39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506237e769e84c57e0cdf9ca568ebb34') in 0.041688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Mine/Models/Props/Materials/Hatch_Normal.png
-  artifactKey: Guid(3b99dd3fa1a67cd42833c4c5db1d08a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Props/Materials/Hatch_Normal.png using Guid(3b99dd3fa1a67cd42833c4c5db1d08a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7bdd4ac74d01db4ec25c455480991c') in 0.033105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Mine/Models/Props/Materials/Lantern_AlbedoTransparency.png
-  artifactKey: Guid(f2b8b87b82de71446aee8bfe22b05b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Props/Materials/Lantern_AlbedoTransparency.png using Guid(f2b8b87b82de71446aee8bfe22b05b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c259e4c103da85c5bc67e95a1f845f6') in 0.017607 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.174785 seconds.
-  path: Assets/Mine/Models/Base
-  artifactKey: Guid(ac1b0892639cec045a74e6318ddfd542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Base using Guid(ac1b0892639cec045a74e6318ddfd542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3356100df4d55b59787a26ab4e2a26eb') in 0.002779 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.050452 seconds.
-  path: Assets/Mine/Models/Base/RampDown.fbx
-  artifactKey: Guid(bc953c5f549bcb74bbf77e11ca861fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Base/RampDown.fbx using Guid(bc953c5f549bcb74bbf77e11ca861fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2439947206b1abe60b27480ddb8cab2') in 0.211524 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Mine/Models/Base/Turn3.fbx
-  artifactKey: Guid(80e2efea9f64f1f4099db3ec0f853748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Base/Turn3.fbx using Guid(80e2efea9f64f1f4099db3ec0f853748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3671e3fb96288ddbc0c2da9a77fce5e8') in 0.153578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.166275 seconds.
-  path: Assets/Mine/Example
-  artifactKey: Guid(86f78def1a07d264094fb952148a6930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Example using Guid(86f78def1a07d264094fb952148a6930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede8dd2622d17eb31c912fd404463aa2') in 0.006817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.905373 seconds.
-  path: Assets/Mine/Example/Example.unity
-  artifactKey: Guid(117fd0fe1401a1148a97cb9de246ad0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Example/Example.unity using Guid(117fd0fe1401a1148a97cb9de246ad0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c259dfe41fe5ef2f2850644f991b274') in 0.007404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1087.703904 seconds.
-  path: Assets/Simple Garage
-  artifactKey: Guid(e68e94cd97788484cb07ed51c637a266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage using Guid(e68e94cd97788484cb07ed51c637a266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6214240df254c1aeb9670527bf9f9b60') in 0.007085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.160653 seconds.
-  path: Assets/Simple Garage/Scenes
-  artifactKey: Guid(ed39ebb48cd4a894797957fa572241b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Scenes using Guid(ed39ebb48cd4a894797957fa572241b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8232e2e03db3dc74217116331387bd74') in 0.007506 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.184684 seconds.
-  path: Assets/Simple Garage/Scenes/Garage Scene.unity
-  artifactKey: Guid(fa400ab596146704a8bbf465aef029a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Scenes/Garage Scene.unity using Guid(fa400ab596146704a8bbf465aef029a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e5c5e4f4d04880b18f1560033bd5da') in 0.007251 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 56.914186 seconds.
-  path: Assets/Simple Garage/Prefabs
-  artifactKey: Guid(6947b6a4a059f9b4f97a86719ef767df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs using Guid(6947b6a4a059f9b4f97a86719ef767df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23abb5b423fdf3924a4680e83e0a09ff') in 0.006722 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.049595 seconds.
-  path: Assets/Simple Garage/Prefabs/3 shelves.prefab
-  artifactKey: Guid(f7ac1c8b5baad0943aa4415c859b8d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs/3 shelves.prefab using Guid(f7ac1c8b5baad0943aa4415c859b8d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109f5f5171676bc946ba6022d71f6b09') in 0.153967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Simple Garage/Prefabs/Camouflage suitcase with relief.prefab
-  artifactKey: Guid(f7bdaa83bdaad934a8a4b0b9f6c4fb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs/Camouflage suitcase with relief.prefab using Guid(f7bdaa83bdaad934a8a4b0b9f6c4fb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5434a06c5ef449ccc1f336dc7c5d67ca') in 0.024646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Simple Garage/Prefabs/Garage.prefab
-  artifactKey: Guid(e6084503f826bbb428b1e677dc1a75d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs/Garage.prefab using Guid(e6084503f826bbb428b1e677dc1a75d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ee70de267e34c69a996255adfb86e4') in 0.315692 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Simple Garage/Prefabs/Drill Bits.002.prefab
-  artifactKey: Guid(275bc328fcd1eb04fb72cc009cabfce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs/Drill Bits.002.prefab using Guid(275bc328fcd1eb04fb72cc009cabfce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31163e66f1bed54bf0f28f63fd42e417') in 0.018754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Simple Garage/Prefabs/Machinery parts.mirror.prefab
-  artifactKey: Guid(178679abfd4f61d49bad23d7af0f6921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs/Machinery parts.mirror.prefab using Guid(178679abfd4f61d49bad23d7af0f6921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88389638e83247657f25cb52574d34d') in 0.016982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Simple Garage/Prefabs/Small stool.prefab
-  artifactKey: Guid(69ee440018931c84785234bdf576f469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs/Small stool.prefab using Guid(69ee440018931c84785234bdf576f469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2f6b25dc7c8b86bbde624efb101c59') in 0.016970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Simple Garage/Prefabs/Machinery parts.brake disc.prefab
-  artifactKey: Guid(e6ec4dc7472cb304ca343aa6fb294de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs/Machinery parts.brake disc.prefab using Guid(e6ec4dc7472cb304ca343aa6fb294de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93645a4eedb80e85ccd6e546bce51d0a') in 0.014285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Simple Garage/Prefabs/Hose.prefab
-  artifactKey: Guid(44aa9d7738e2750459b0b10bad9c6e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs/Hose.prefab using Guid(44aa9d7738e2750459b0b10bad9c6e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64b97922da14f38ffd5831b4e9cbe6d') in 0.027668 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Simple Garage/Prefabs/Exterior.prefab
-  artifactKey: Guid(92f1368635be630459dee288eec9f065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs/Exterior.prefab using Guid(92f1368635be630459dee288eec9f065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c26663e6a8b2c3a77a5691e4751e95') in 0.052215 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Simple Garage/Prefabs/Drill Bits.001.prefab
-  artifactKey: Guid(21836529584babc44958c694331481bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs/Drill Bits.001.prefab using Guid(21836529584babc44958c694331481bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2f2cae8eb59a56446706612f59d570') in 0.016126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Simple Garage/Prefabs/Round Drill Bits.prefab
-  artifactKey: Guid(ff10122fa2af38e47ab81e33cd4aba74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs/Round Drill Bits.prefab using Guid(ff10122fa2af38e47ab81e33cd4aba74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1535fcce3e62d231ee67a301614fb998') in 0.015043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Simple Garage/Prefabs/Clamps.prefab
-  artifactKey: Guid(30760f0ad9c258b46961c1bae456d937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs/Clamps.prefab using Guid(30760f0ad9c258b46961c1bae456d937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e82c942775e2d4f367d4c4c90dcd9a') in 0.034305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Simple Garage/Prefabs/Carpet.prefab
-  artifactKey: Guid(5d650df9a72d0bf428421b8f2050242e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs/Carpet.prefab using Guid(5d650df9a72d0bf428421b8f2050242e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4554b4b0a23fa162a67f28d2f6906d1e') in 0.017296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Simple Garage/Prefabs/Drill Bits.prefab
-  artifactKey: Guid(150266f96e133ac4ab9a9ceceecfa10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs/Drill Bits.prefab using Guid(150266f96e133ac4ab9a9ceceecfa10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f18afaf19a39a59be2eba63b245b217') in 0.015762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Simple Garage/Prefabs/Table.prefab
-  artifactKey: Guid(b1b5b05bf2306ed4a9ae82648db8570c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs/Table.prefab using Guid(b1b5b05bf2306ed4a9ae82648db8570c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714d41f2b3b99bd7a603b402bf0c2aa3') in 0.021553 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Simple Garage/Prefabs/White suitcase.prefab
-  artifactKey: Guid(17358fdfd9608744dbaf3c39cc5833bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs/White suitcase.prefab using Guid(17358fdfd9608744dbaf3c39cc5833bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4baae886bfd5d9acbcac95226009aa1') in 0.020707 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Simple Garage/Prefabs/Drill bits Lying.prefab
-  artifactKey: Guid(c3c81b5a0491f094ea289ef28f273e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs/Drill bits Lying.prefab using Guid(c3c81b5a0491f094ea289ef28f273e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f89a3d5fb9579e62e54882ab101b57') in 0.015837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Simple Garage/Prefabs/Drilling machine.prefab
-  artifactKey: Guid(fe775836666d1904eaf68794811bf252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs/Drilling machine.prefab using Guid(fe775836666d1904eaf68794811bf252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8670358275900fa6ccefeee2d4344a82') in 0.025695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Simple Garage/Prefabs/Hook cylinder type.prefab
-  artifactKey: Guid(cc3feee37faa6e34e88487c92863d95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs/Hook cylinder type.prefab using Guid(cc3feee37faa6e34e88487c92863d95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43eeaef4ebe33b781a68983a8db40e00') in 0.016979 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Simple Garage/Prefabs/Machinery parts.Shock Absorber.prefab
-  artifactKey: Guid(8eb785d56f61ad04d82738d75f08ccfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Prefabs/Machinery parts.Shock Absorber.prefab using Guid(8eb785d56f61ad04d82738d75f08ccfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadee17c1961635148bd37457dc9d3ec') in 0.015732 seconds 
+  Time since last request: 0.059919 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Interactables/Interactable Instant Pyramid.prefab
+  artifactKey: Guid(2ed984a58a974166bf92c82a74380454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Interactables/Interactable Instant Pyramid.prefab using Guid(2ed984a58a974166bf92c82a74380454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9793325f13205fe65055a06d7184ef') in 0.027777 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

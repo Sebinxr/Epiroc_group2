@@ -1,5 +1,1 @@
-<<<<<<< Updated upstream
-D:\Hyper Island\Industry Simulation\FlowTroPolis\flowtropolis_group2\flowTroPolis
-=======
 D:\Hyper Island\Industry Simulation\FlowTroPolis\flowtropolis_group2
->>>>>>> Stashed changes
