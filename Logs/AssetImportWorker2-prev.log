@@ -15,7 +15,7 @@ D:/Hyper Island/Industry Simulation/FlowTroPolis/flowtropolis_group2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-61574
+57748
 Successfully changed project path to: D:/Hyper Island/Industry Simulation/FlowTroPolis/flowtropolis_group2
 D:/Hyper Island/Industry Simulation/FlowTroPolis/flowtropolis_group2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,15 @@ D:/Hyper Island/Industry Simulation/FlowTroPolis/flowtropolis_group2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7084] Host "[IP] 192.168.1.153 [Port] 0 [Flags] 2 [Guid] 3851280069 [EditorId] 3851280069 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [41804] Host "[IP] 192.168.1.153 [Port] 0 [Flags] 2 [Guid] 112076678 [EditorId] 112076678 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7084] Host "[IP] 192.168.1.153 [Port] 0 [Flags] 2 [Guid] 3851280069 [EditorId] 3851280069 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [41804] Host "[IP] 192.168.1.153 [Port] 0 [Flags] 2 [Guid] 112076678 [EditorId] 112076678 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 105.97 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.70 ms.
+Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Refreshing native plugins compatible for Editor in 128.64 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 1.92 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Hyper Island/Industry Simulation/FlowTroPolis/flowtropolis_group2/Assets
@@ -67,53 +70,59 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008264 seconds.
+Registered in 0.008226 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 107.44 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.24 ms.
+Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Refreshing native plugins compatible for Editor in 81.55 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.680 seconds
+- Completed reload, in  0.589 seconds
 Domain Reload Profiling:
-	ReloadAssembly (681ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (589ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (483ms)
-			LoadAssemblies (87ms)
+		EndReloadAssembly (412ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (97ms)
+			SetupTypeCache (91ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (313ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (254ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (50ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (108ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (82ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (101ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.018482 seconds.
+Registered in 0.015064 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Hyper Island\Industry Simulation\FlowTroPolis\flowtropolis_group2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\Hyper Island\Industry Simulation\FlowTroPolis\flowtropolis_group2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 87.05 ms, found 13 plugins.
+Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Refreshing native plugins compatible for Editor in 77.93 ms, found 13 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
@@ -132,43 +141,49 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.289 seconds
+- Completed reload, in  2.118 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1290ms)
-		BeginReloadAssembly (221ms)
+	ReloadAssembly (2119ms)
+		BeginReloadAssembly (207ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (130ms)
-		EndReloadAssembly (967ms)
-			LoadAssemblies (108ms)
+			CreateAndSetChildDomain (120ms)
+		EndReloadAssembly (1812ms)
+			LoadAssemblies (160ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
+			SetupTypeCache (238ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (518ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1333ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (87ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (264ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (870ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
+Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.30 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.50 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 Unloading 4611 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 59 unused Assets / (115.7 KB). Loaded Objects now: 5071.
+Unloading 57 unused Assets / (58.3 KB). Loaded Objects now: 5073.
 Memory consumption went from 167.6 MB to 167.5 MB.
-Total: 3.575200 ms (FindLiveObjects: 0.342100 ms CreateObjectMapping: 0.125400 ms MarkObjects: 2.976500 ms  DeleteObjects: 0.130300 ms)
+Total: 3.925700 ms (FindLiveObjects: 0.404700 ms CreateObjectMapping: 0.213400 ms MarkObjects: 3.202900 ms  DeleteObjects: 0.103700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -183,118 +198,142 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 127426.247380 seconds.
-  path: Assets/Mine/Models/Base/RampDown.fbx
-  artifactKey: Guid(bc953c5f549bcb74bbf77e11ca861fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Base/RampDown.fbx using Guid(bc953c5f549bcb74bbf77e11ca861fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d9e27777aa06cf9e65946bb19f9f93') in 0.356764 seconds 
+  Time since last request: 194708.503720 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/Diamec
+  artifactKey: Guid(51ed7889f36e7eb4b8acadbf15ba9d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/Diamec using Guid(51ed7889f36e7eb4b8acadbf15ba9d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a422d0bb66f19cba72b0ee4db6d6e3cc') in 0.018105 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Mine/Models/Base/Tunnel3.fbx
-  artifactKey: Guid(bdf303a0817e7f34da6898fac45c3fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Base/Tunnel3.fbx using Guid(bdf303a0817e7f34da6898fac45c3fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473da452dc4a5b806db851f2b05b7546') in 0.108636 seconds 
+  Time since last request: 0.152716 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/Diamec/Diamec_800_v.fbx
+  artifactKey: Guid(a57edb448f5b47b4093cd35a99027ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/Diamec/Diamec_800_v.fbx using Guid(a57edb448f5b47b4093cd35a99027ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9539487e0415063e70007076a8ff7466') in 0.137201 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Mine/Models/Props/Lantern.fbx
-  artifactKey: Guid(ab95aa29a4f019b4b8c71652bd378966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Props/Lantern.fbx using Guid(ab95aa29a4f019b4b8c71652bd378966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf1e7f8e8b2af59c6e43ca308afe6a7') in 0.050803 seconds 
+  Time since last request: 144.752950 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/Diesel Truck
+  artifactKey: Guid(9a023d18489c67040bd6363ee0d7f504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/Diesel Truck using Guid(9a023d18489c67040bd6363ee0d7f504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f1ea9466584f7c8a87d668f2558e61') in 0.009431 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Mine/Models/Props/Planks.fbx
-  artifactKey: Guid(97f1da26e5e3e5842980f5f7f08f15e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Props/Planks.fbx using Guid(97f1da26e5e3e5842980f5f7f08f15e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d760fa96a3b6036a14b1a893e85fb1') in 0.037999 seconds 
+  Time since last request: 0.207367 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/Diesel Truck/Diesel_truck_900_v.fbx
+  artifactKey: Guid(edf667c1a9776bb4bb17279cb65049f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/Diesel Truck/Diesel_truck_900_v.fbx using Guid(edf667c1a9776bb4bb17279cb65049f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a955cd417f781490fd6d7c126972ff0') in 0.032879 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.477628 seconds.
-  path: Assets/Simple Garage/Models
-  artifactKey: Guid(f8c5a65ef64cb5a48beedca26c8d6456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models using Guid(f8c5a65ef64cb5a48beedca26c8d6456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ba66cf8322a494ebda0699d69915d9') in 0.011476 seconds 
+  Time since last request: 2.664854 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/DP 2000
+  artifactKey: Guid(167f63b997a10c843b2063b24d36313a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/DP 2000 using Guid(167f63b997a10c843b2063b24d36313a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcd42ab28ae3499665ffdfbeac08c8a') in 0.008816 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.090220 seconds.
-  path: Assets/Simple Garage/Models/3 shelves.fbx
-  artifactKey: Guid(1436e4d03ae5d464aa6a43bf8c6f5743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/3 shelves.fbx using Guid(1436e4d03ae5d464aa6a43bf8c6f5743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34dc6da9fca50d7e5b46c68650791b91') in 0.065631 seconds 
+  Time since last request: 0.219183 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/DP 2000/DP_2000_360_v.fbx
+  artifactKey: Guid(14395eb1b2c79c3449b7779c303fee75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/DP 2000/DP_2000_360_v.fbx using Guid(14395eb1b2c79c3449b7779c303fee75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4701620bce31f039527d8e0735b96f35') in 0.035187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.997272 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/Drone
+  artifactKey: Guid(8854e382db8f8a748b72d8ff5b5a84ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/Drone using Guid(8854e382db8f8a748b72d8ff5b5a84ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aacb81a67458d0d56d755ff14d00a676') in 0.011301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.263295 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/Drone/Drone_300_v.fbx
+  artifactKey: Guid(91789ed64e293cc4bb7b70d5fdc2ec46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/Drone/Drone_300_v.fbx using Guid(91789ed64e293cc4bb7b70d5fdc2ec46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8646dde9901f9e72686f1e9fb4b8761') in 0.030186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.191886 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/Easer
+  artifactKey: Guid(298ef372c2dbaba4e9e750b86fd65f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/Easer using Guid(298ef372c2dbaba4e9e750b86fd65f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb179e6ade6fdd501d4976228e750df') in 0.009225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045736 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/Easer/Low poly easer.fbx
+  artifactKey: Guid(1355b7d1129a84e4ca22ace8cfcca3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/Easer/Low poly easer.fbx using Guid(1355b7d1129a84e4ca22ace8cfcca3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbad053b4f0d3f738405c1c846a8f1e') in 0.068152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.176291 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/ER Drum Cutter 600
+  artifactKey: Guid(61816bd7104bdd149b09d5619988da81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/ER Drum Cutter 600 using Guid(61816bd7104bdd149b09d5619988da81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974518b5cbaf907a5644926d929bcc6b') in 0.009499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054153 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/ER Drum Cutter 600/ER_drum_cutter_600_1k_v.fbx
+  artifactKey: Guid(d959b3ce8efc14c4e9ad710afba19468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/ER Drum Cutter 600/ER_drum_cutter_600_1k_v.fbx using Guid(d959b3ce8efc14c4e9ad710afba19468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c912401e8fef858872a721ca17d7e57c') in 0.042736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.361781 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/Excavator
+  artifactKey: Guid(00b9372c90ddf3843a9546fd0c802d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/Excavator using Guid(00b9372c90ddf3843a9546fd0c802d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e868b4e1f5da7b04110e8c71a3c06725') in 0.011720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043069 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/Excavator/Excavator 2kv.fbx
+  artifactKey: Guid(374df132a836b604795a2a37b0e52687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/Excavator/Excavator 2kv.fbx using Guid(374df132a836b604795a2a37b0e52687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12127848f69955dee0acd07f0d70aa01') in 0.032611 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/Simple Garage/Models/Cone Drill Bits.fbx
-  artifactKey: Guid(3688125de6839734b86ad19d18045e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Cone Drill Bits.fbx using Guid(3688125de6839734b86ad19d18045e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e068864e5a727cb0e9603032c42b2487') in 0.101242 seconds 
+  path: Assets/Low Poly machines/Low Poly machines/Excavator/Excavator_HB_1k_v.fbx
+  artifactKey: Guid(550212deca2684e4bb7a2a7b5a55c2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/Excavator/Excavator_HB_1k_v.fbx using Guid(550212deca2684e4bb7a2a7b5a55c2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1294b6af9a9d3ff02ca8c68d46d1c39a') in 0.046792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/Excavator/Excavator_without_digger_1k_v.fbx
+  artifactKey: Guid(14aeb3c322c9fba489e67d43c4d22b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/Excavator/Excavator_without_digger_1k_v.fbx using Guid(14aeb3c322c9fba489e67d43c4d22b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332fa5f176f8b0fc85cf0b8e59530480') in 0.038013 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000039 seconds.
-  path: Assets/Simple Garage/Models/Longboard.fbx
-  artifactKey: Guid(327d01924b7231d47883fe1d588cfbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Longboard.fbx using Guid(327d01924b7231d47883fe1d588cfbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8ae7d329c863470c2c03e9e19e4860') in 0.085937 seconds 
+  path: Assets/Low Poly machines/Low Poly machines/Excavator/Excavator_MG_1k_v.fbx
+  artifactKey: Guid(0cc999bfa4b54b14896479a4666e894c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/Excavator/Excavator_MG_1k_v.fbx using Guid(0cc999bfa4b54b14896479a4666e894c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0804b5d07dcd63de88ff197459a037f9') in 0.065663 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Simple Garage/Models/Drill part.fbx
-  artifactKey: Guid(f06171d029e9da44ba45d3270f5d5fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Drill part.fbx using Guid(f06171d029e9da44ba45d3270f5d5fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01dc60075ee03e427f8614d61812e5bd') in 0.040872 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/Excavator/Excavator_DP_1k_v.fbx
+  artifactKey: Guid(7a972c4d927c92740aedc542b681e46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/Excavator/Excavator_DP_1k_v.fbx using Guid(7a972c4d927c92740aedc542b681e46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9875c7d3f49f9567add9f0be6c8b98cc') in 0.061655 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Simple Garage/Models/Red suitcase.fbx
-  artifactKey: Guid(317ca1a0c8a7425428605b4f094ed3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Red suitcase.fbx using Guid(317ca1a0c8a7425428605b4f094ed3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2be94fdd1679cc31f80e05f19df955') in 0.037170 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/Excavator/Excavator_facing_upwards_1k_v.fbx
+  artifactKey: Guid(c9727ccabdab23b48be45f6352956616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/Excavator/Excavator_facing_upwards_1k_v.fbx using Guid(c9727ccabdab23b48be45f6352956616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed8f801e4a491eb49cf3241744b3a18') in 0.069778 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Simple Garage/Models/Hook cylinder type.fbx
-  artifactKey: Guid(8b60d343f08319d4e9a2b179a6b42b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Hook cylinder type.fbx using Guid(8b60d343f08319d4e9a2b179a6b42b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573519a57bf808fa0106ec6f41ca8a44') in 0.031258 seconds 
+  Time since last request: 0.000043 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/Excavator/Excavator_ER_Drum_1k_v.fbx
+  artifactKey: Guid(459026d05ea4f2f4791617e1039e0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/Excavator/Excavator_ER_Drum_1k_v.fbx using Guid(459026d05ea4f2f4791617e1039e0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb7601a919daec8caa0ffe67c451f45') in 0.062061 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Simple Garage/Models/Carpet.fbx
-  artifactKey: Guid(62e6a133af26dbf498fed56d24553c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Carpet.fbx using Guid(62e6a133af26dbf498fed56d24553c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223e635054e48bdcc0fea18f37c53de3') in 0.034212 seconds 
+  Time since last request: 0.000041 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/Excavator/Excavator_HC_1k_v.fbx
+  artifactKey: Guid(900dc312f0fcaf44193dbc4414df246e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/Excavator/Excavator_HC_1k_v.fbx using Guid(900dc312f0fcaf44193dbc4414df246e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b785e52d4afe2281686aa06daff68c09') in 0.051246 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Simple Garage/Models/Sponge.fbx
-  artifactKey: Guid(9d6e34dbf58d5c84c8d5b0859fba43ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Sponge.fbx using Guid(9d6e34dbf58d5c84c8d5b0859fba43ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81a35a6485cf725817f76d832265ed9') in 0.029908 seconds 
+  Time since last request: 1.988627 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/Explorac 235
+  artifactKey: Guid(e2350eb1259febe4a9c6aaa03704e6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/Explorac 235 using Guid(e2350eb1259febe4a9c6aaa03704e6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09a4228c848d68c5d27f9cd80e12945') in 0.012071 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Simple Garage/Models/Garage door.fbx
-  artifactKey: Guid(0ef15bbf0c3f08646b1812c663767007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Garage door.fbx using Guid(0ef15bbf0c3f08646b1812c663767007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0277ae7cdeea3c746de0b4bb7561f3') in 0.040204 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Simple Garage/Models/Drill Bits.002.fbx
-  artifactKey: Guid(a888387dbf4b8ad4bab40d1b748343ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Drill Bits.002.fbx using Guid(a888387dbf4b8ad4bab40d1b748343ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7fb8b96e040e80a47fb488be0717c0') in 0.041527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Simple Garage/Models/Drill Bits.fbx
-  artifactKey: Guid(1e411d3e5babd7941aeb58230965174e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Drill Bits.fbx using Guid(1e411d3e5babd7941aeb58230965174e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88251d855bb79bf3ad86a8fe8bd5480c') in 0.035924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Simple Garage/Models/Shelf.fbx
-  artifactKey: Guid(7316845734f527d4aaba29d50932acf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Shelf.fbx using Guid(7316845734f527d4aaba29d50932acf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5bac74bea3923f55f8f3b17a52c8a8') in 0.055027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Simple Garage/Models/Saw.fbx
-  artifactKey: Guid(bc7f2b2496b7d5e42aeff231458e580d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Saw.fbx using Guid(bc7f2b2496b7d5e42aeff231458e580d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beace61fa23a728007ac79f7bfccc05c') in 0.100873 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Simple Garage/Models/Camouflage suitcase with relief.fbx
-  artifactKey: Guid(e5c2a75ffe7427a4d92ae1a6dc53c2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Camouflage suitcase with relief.fbx using Guid(e5c2a75ffe7427a4d92ae1a6dc53c2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89589d5bdd276ffca33b364372435ec') in 0.048856 seconds 
+  Time since last request: 0.020183 seconds.
+  path: Assets/Low Poly machines/Low Poly machines/Explorac 235/Explorac_235_2k_v.fbx
+  artifactKey: Guid(5c3da21e9cfd5de48a9a52741769da9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly machines/Low Poly machines/Explorac 235/Explorac_235_2k_v.fbx using Guid(5c3da21e9cfd5de48a9a52741769da9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3f83759ccdb2c5a72e0fc5a1a0a40c') in 0.028673 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
