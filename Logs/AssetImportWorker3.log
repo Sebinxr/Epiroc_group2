@@ -15,7 +15,7 @@ C:/GitHub/flowtropolis_group2
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-50245
+53888
 Successfully changed project path to: C:/GitHub/flowtropolis_group2
 C:/GitHub/flowtropolis_group2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,15 +47,15 @@ C:/GitHub/flowtropolis_group2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7576] Host "[IP] 192.168.0.16 [Port] 0 [Flags] 2 [Guid] 1587764541 [EditorId] 1587764541 [Version] 1048832 [Id] WindowsEditor(7,Olga) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [30180] Host "[IP] 192.168.0.16 [Port] 0 [Flags] 2 [Guid] 4007659542 [EditorId] 4007659542 [Version] 1048832 [Id] WindowsEditor(7,Olga) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7576] Host "[IP] 192.168.0.16 [Port] 0 [Flags] 2 [Guid] 1587764541 [EditorId] 1587764541 [Version] 1048832 [Id] WindowsEditor(7,Olga) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30180] Host "[IP] 192.168.0.16 [Port] 0 [Flags] 2 [Guid] 4007659542 [EditorId] 4007659542 [Version] 1048832 [Id] WindowsEditor(7,Olga) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 74.62 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.48 ms.
+Refreshing native plugins compatible for Editor in 368.52 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 1.27 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/GitHub/flowtropolis_group2/Assets
@@ -70,50 +70,50 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003054 seconds.
+Registered in 0.007361 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 65.65 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
+Refreshing native plugins compatible for Editor in 67.95 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.459 seconds
+- Completed reload, in  0.851 seconds
 Domain Reload Profiling:
-	ReloadAssembly (459ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (851ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (330ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (666ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (72ms)
+			SetupTypeCache (389ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (202ms)
+			SetupLoadedEditorAssemblies (219ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
+				InitializePlatformSupportModulesInManaged (38ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (66ms)
+				RefreshPlugins (68ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (66ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006005 seconds.
+Registered in 0.028322 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\GitHub\flowtropolis_group2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\GitHub\flowtropolis_group2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -122,7 +122,7 @@ Native extension for Android target not found
 Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 66.99 ms, found 13 plugins.
+Refreshing native plugins compatible for Editor in 63.61 ms, found 13 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
@@ -141,33 +141,33 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.016 seconds
+- Completed reload, in  1.130 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1016ms)
-		BeginReloadAssembly (183ms)
+	ReloadAssembly (1130ms)
+		BeginReloadAssembly (195ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (121ms)
-		EndReloadAssembly (753ms)
-			LoadAssemblies (66ms)
+			CreateAndSetChildDomain (120ms)
+		EndReloadAssembly (841ms)
+			LoadAssemblies (128ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
-			ReleaseScriptCaches (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (403ms)
+			SetupLoadedEditorAssemblies (425ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (67ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (217ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
@@ -177,13 +177,13 @@ Worker process is ready to serve import requests
 Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.22 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
 Unloading 4611 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 57 unused Assets / (58.0 KB). Loaded Objects now: 5075.
 Memory consumption went from 167.7 MB to 167.6 MB.
-Total: 3.176100 ms (FindLiveObjects: 0.253800 ms CreateObjectMapping: 0.129400 ms MarkObjects: 2.727600 ms  DeleteObjects: 0.064200 ms)
+Total: 3.719500 ms (FindLiveObjects: 0.385900 ms CreateObjectMapping: 0.122500 ms MarkObjects: 3.130000 ms  DeleteObjects: 0.079900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -197,283 +197,131 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 157.087401 seconds.
-  path: Assets/SciFi Warehouse Kit/Prefabs/Structures/Walls/Wall Door 02.prefab
-  artifactKey: Guid(01f7094c0e795ad47b0ef77f3cf2ae66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Prefabs/Structures/Walls/Wall Door 02.prefab using Guid(01f7094c0e795ad47b0ef77f3cf2ae66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebaf073abf67cae894d0ecc484656d9') in 0.133755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.251813 seconds.
-  path: Assets/SciFi Warehouse Kit/Prefabs/Structures/Structure Props/Pipes 01.prefab
-  artifactKey: Guid(a481acdedee58d04aa1ddfe33e937ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Prefabs/Structures/Structure Props/Pipes 01.prefab using Guid(a481acdedee58d04aa1ddfe33e937ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0537a6f522d09db0953eab7b768589e9') in 0.020192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/SciFi Warehouse Kit/Prefabs/Structures/Structure Props/Sprinkler 05.prefab
-  artifactKey: Guid(0938980ccd4548d498afb52f86efc01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Prefabs/Structures/Structure Props/Sprinkler 05.prefab using Guid(0938980ccd4548d498afb52f86efc01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d4e5d5efac01f95ee6916925971307') in 0.021202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/SciFi Warehouse Kit/Prefabs/Structures/Structure Props/Pipes 06.prefab
-  artifactKey: Guid(68b56f98a24210a4e82f6c092adcd68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Prefabs/Structures/Structure Props/Pipes 06.prefab using Guid(68b56f98a24210a4e82f6c092adcd68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2d75a2096028eb2f15f51c7595b4c4') in 0.020016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SciFi Warehouse Kit/Prefabs/Structures/Structure Props/Sprinkler 03.prefab
-  artifactKey: Guid(68c6dd8e7dfcdad4d9d3341eee9c5601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Prefabs/Structures/Structure Props/Sprinkler 03.prefab using Guid(68c6dd8e7dfcdad4d9d3341eee9c5601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbbefb9fde7235818fc550102ae3c8f') in 0.015841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.150377 seconds.
-  path: Assets/Simple Garage/Models/Bench Grinder.fbx
-  artifactKey: Guid(20cc8b5b259c1ce4bbaf0889d74e395a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Bench Grinder.fbx using Guid(20cc8b5b259c1ce4bbaf0889d74e395a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888621496c577c88fc615792782b4738') in 0.090855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Catwalk/Catwalk Rails Long.fbx
-  artifactKey: Guid(6f62cab6fc128494e9c13160216d988b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Catwalk/Catwalk Rails Long.fbx using Guid(6f62cab6fc128494e9c13160216d988b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5496853ed38ab70e72c5ac20ff9f61e3') in 0.026856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Catwalk/Catwalk Long.fbx
-  artifactKey: Guid(61065208e46478a47815444ce1dbd689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Catwalk/Catwalk Long.fbx using Guid(61065208e46478a47815444ce1dbd689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848c95750ddc9d3300ce9a424aacdab0') in 0.027212 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Simple Garage/Models/Carpet.fbx
-  artifactKey: Guid(62e6a133af26dbf498fed56d24553c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Carpet.fbx using Guid(62e6a133af26dbf498fed56d24553c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223e635054e48bdcc0fea18f37c53de3') in 0.046014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Catwalk/CatWalk Stairs Wide.fbx
-  artifactKey: Guid(f166f60cc0fa7d344b41aa4d7a0c6cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Catwalk/CatWalk Stairs Wide.fbx using Guid(f166f60cc0fa7d344b41aa4d7a0c6cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834e6d76be69728d43cb22ddde2a00e5') in 0.058111 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.865501 seconds.
-  path: Assets/Simple Garage/Models/Clamps.fbx
-  artifactKey: Guid(f9176ded31cec7b49a01685aa5d28e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Clamps.fbx using Guid(f9176ded31cec7b49a01685aa5d28e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66214efec1d987df538a3783d5637da') in 0.065276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.379778 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Corner Lights.fbx
-  artifactKey: Guid(4ce6b0c7f72eca64281331f29fa951bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Corner Lights.fbx using Guid(4ce6b0c7f72eca64281331f29fa951bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946c6f9a801f07a514b50973a533c6e5') in 0.100381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Deadend.fbx
-  artifactKey: Guid(36a9c6b5bbc21cf46bfd3d95a186d00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Deadend.fbx using Guid(36a9c6b5bbc21cf46bfd3d95a186d00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b21542100e69e33c87195a23dcabd4') in 0.056032 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.041882 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Passthrough.fbx
-  artifactKey: Guid(a8a331381b0964540861396e52de1693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Passthrough.fbx using Guid(a8a331381b0964540861396e52de1693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f1ede39cb01bda6fa722b245c56cb0') in 0.152903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Tee Lights.fbx
-  artifactKey: Guid(f31206e3aa5c5ba4ca098413529f39f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Tee Lights.fbx using Guid(f31206e3aa5c5ba4ca098413529f39f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5341d810859d0120cf979703db9c3201') in 0.115531 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Tee.fbx
-  artifactKey: Guid(2da2bfe86131738449f1d97919e04a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Tee.fbx using Guid(2da2bfe86131738449f1d97919e04a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649aaa4f21a11579d9dba981595d3d49') in 0.063040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.367666 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Props/Crates Barrels Pallets/Crate Long.fbx
-  artifactKey: Guid(e53378bffa67fba40888797a9016d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Props/Crates Barrels Pallets/Crate Long.fbx using Guid(e53378bffa67fba40888797a9016d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7838bddc1228dbe25ff2e3d92d74fab3') in 0.023287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Hands Interaction Demo/Runtime/Models/Primitives/Cylinder.fbx
-  artifactKey: Guid(bf65382e5e6d14e7f8140e4204ce07e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Hands Interaction Demo/Runtime/Models/Primitives/Cylinder.fbx using Guid(bf65382e5e6d14e7f8140e4204ce07e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f57bb18669b5062b7ab7be453ecd53') in 0.025753 seconds 
+  Time since last request: 24716.265565 seconds.
+  path: Assets/Samples/XR Hands/1.1.0/HandVisualizer/Materials/Blue.mat
+  artifactKey: Guid(7b26add94f09dc44fb811013f007a3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Hands/1.1.0/HandVisualizer/Materials/Blue.mat using Guid(7b26add94f09dc44fb811013f007a3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ba5dcfbc0905972586b18555445689') in 0.129869 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Hands Interaction Demo/Runtime/Models/Primitives/Cube.fbx
-  artifactKey: Guid(7cf3ac7bcd2e5471fb54d5f5da9aad56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Hands Interaction Demo/Runtime/Models/Primitives/Cube.fbx using Guid(7cf3ac7bcd2e5471fb54d5f5da9aad56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6979d874d5a14e8777ff3c6808962814') in 0.023388 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.343960 seconds.
-  path: Assets/Simple Garage/Models/Drill Bits.001.fbx
-  artifactKey: Guid(837a64de2d8101645bffba32c0c91cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Drill Bits.001.fbx using Guid(837a64de2d8101645bffba32c0c91cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22ad0153a178ad9e8cf1537dbf35383') in 0.029749 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.066886 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Props/Ducts/Duct Straight.fbx
-  artifactKey: Guid(43901d630c7174040b7ca11548b6d61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Props/Ducts/Duct Straight.fbx using Guid(43901d630c7174040b7ca11548b6d61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9ffb9531241ff327c2e4ab63e1f3ac') in 0.034801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Props/Ducts/Duct Vent.fbx
-  artifactKey: Guid(46032e2b9d73a4c46b7c0a8cfda58d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Props/Ducts/Duct Vent.fbx using Guid(46032e2b9d73a4c46b7c0a8cfda58d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdf4dc2ac8bc5c4fe66b485a03f5cb5') in 0.024826 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.219744 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Floor/Floor Tile 01.fbx
-  artifactKey: Guid(ce1e1c6afeb8a4c4da4ab18e701d36cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Floor/Floor Tile 01.fbx using Guid(ce1e1c6afeb8a4c4da4ab18e701d36cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6243154f414f3e53676c0c8fc9e6f60a') in 0.101102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Floor/Floor Tile 03.fbx
-  artifactKey: Guid(5cbddee6fa556ed4dbf67a4f02f826fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Floor/Floor Tile 03.fbx using Guid(5cbddee6fa556ed4dbf67a4f02f826fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a25094e1f74d9a0bab7176cee0f5c1') in 0.035485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.347352 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Structure Props/Fusebox 02.fbx
-  artifactKey: Guid(163b2c8b61a3ecb4ea45334400e257cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Structure Props/Fusebox 02.fbx using Guid(163b2c8b61a3ecb4ea45334400e257cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9841962b0c1d53c068beeef093f3dce3') in 0.065940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Simple Garage/Models/Garage.fbx
-  artifactKey: Guid(8f9e4da5668113a4da8b4efea4a9499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Garage.fbx using Guid(8f9e4da5668113a4da8b4efea4a9499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ab331f8a1f3b21f280128b390d9341') in 0.819719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.386021 seconds.
-  path: Assets/Mine/Models/Props/Ladder.fbx
-  artifactKey: Guid(a7ce797f853566142a35f25bcb81c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Props/Ladder.fbx using Guid(a7ce797f853566142a35f25bcb81c247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56ad3196a9c584181cf484a99c81405') in 0.033331 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.278709 seconds.
-  path: Assets/Simple Garage/Models/Machinery parts.mirror.fbx
-  artifactKey: Guid(681be740132a8364fb1e414a4988c47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Machinery parts.mirror.fbx using Guid(681be740132a8364fb1e414a4988c47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0faaa4271054a98b17e3212ab09252c5') in 0.040914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Mine/Models/Rocks/Ore.fbx
-  artifactKey: Guid(483f930f7cf5dca46a4974b3a5f3231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Rocks/Ore.fbx using Guid(483f930f7cf5dca46a4974b3a5f3231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824473b65e74d7a47caa10e5a91235ea') in 0.090679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.268190 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Structure Props/Pipes 02.fbx
-  artifactKey: Guid(335d2e575f6b60848825c079049db587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Structure Props/Pipes 02.fbx using Guid(335d2e575f6b60848825c079049db587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263ba0e3a0fe93b3771e6305863b724c') in 0.024616 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Structure Props/Pipes 04.fbx
-  artifactKey: Guid(20c996ef2120d4f46878fd50f9f45703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Structure Props/Pipes 04.fbx using Guid(20c996ef2120d4f46878fd50f9f45703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed011d37d37cc54a36f7657e99aabf7') in 0.018649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.464390 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Models/Primitive_Torus.fbx
-  artifactKey: Guid(f077c919501a44778a0c2edb6eb1a54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Models/Primitive_Torus.fbx using Guid(f077c919501a44778a0c2edb6eb1a54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7c662d22af8d301e81c2a81a8c76e5') in 0.026066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Models/Primitive_Wedge.fbx
-  artifactKey: Guid(ab3a79eba4de4be0ad5fead9fb858190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Models/Primitive_Wedge.fbx using Guid(ab3a79eba4de4be0ad5fead9fb858190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1c7f2dc337e10247e6a7d420b587d3') in 0.023360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.339962 seconds.
-  path: Assets/Low Poly machines/Low Poly machines/Rescue Chamber/Rescue_chamber_80_v.fbx
-  artifactKey: Guid(9cd3a41d54c2629459bcd2852f73e9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly machines/Low Poly machines/Rescue Chamber/Rescue_chamber_80_v.fbx using Guid(9cd3a41d54c2629459bcd2852f73e9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8a157ed18eb041a043413826f482b9') in 0.026349 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Mine/Models/Rocks/Rock2.fbx
-  artifactKey: Guid(53088b9f9e12f6c4e8e65ee5a84d1c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Rocks/Rock2.fbx using Guid(53088b9f9e12f6c4e8e65ee5a84d1c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdffd2361ef51323e90eea27c931ec8') in 0.037538 seconds 
+  path: Assets/Simple Garage/Materials/Carpet albedo.mat
+  artifactKey: Guid(4d3949fc3b5686e488e9190dae8cf98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Carpet albedo.mat using Guid(4d3949fc3b5686e488e9190dae8cf98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1263cdac112dc879ec12e060d55f0503') in 0.018863 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Simple Garage/Models/Ridgid oscillating belt sander.fbx
-  artifactKey: Guid(6bf857a61a1ede54ab81a1649be6c9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Ridgid oscillating belt sander.fbx using Guid(6bf857a61a1ede54ab81a1649be6c9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3d2a44990e9cc8cb08f4c6dcda42f0') in 0.047125 seconds 
+  path: Assets/SciFi Warehouse Kit/Art/Materials/Ducts Pillars Mat.mat
+  artifactKey: Guid(7a1ba1f8a9db2764ca5dab2fefd28478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Materials/Ducts Pillars Mat.mat using Guid(7a1ba1f8a9db2764ca5dab2fefd28478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f092031714c6f5765f698168a729c7') in 0.036177 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Mine/Models/Rocks/Rock1.fbx
-  artifactKey: Guid(73a471e9087c8114db750e1b4b4c91a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Rocks/Rock1.fbx using Guid(73a471e9087c8114db750e1b4b4c91a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8ebff139a467a2940f1794215de432') in 0.026457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.740070 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Catwalk/Short Stairs Wide.fbx
-  artifactKey: Guid(2a67f3a3d4c67e54dbc646451a36a15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Catwalk/Short Stairs Wide.fbx using Guid(2a67f3a3d4c67e54dbc646451a36a15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1d41f5dd69814479887bc1c6967ddd') in 0.032184 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/Simple Garage/Materials/Camouflage suitcase relief albedo.mat
+  artifactKey: Guid(04bc125d9fd5ba940983570cb9ae0efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Camouflage suitcase relief albedo.mat using Guid(04bc125d9fd5ba940983570cb9ae0efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0613a6d55ec774cbfa131c602daf5a90') in 0.019269 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Simple Garage/Models/Socket.fbx
-  artifactKey: Guid(b91c351aa9cc29d4bb872aff2555bec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/Socket.fbx using Guid(b91c351aa9cc29d4bb872aff2555bec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df68620c8450d695cf3521b944127e6') in 0.029110 seconds 
+  path: Assets/Simple Garage/Materials/Ceiling.mat
+  artifactKey: Guid(49d6cde84cf7a9d4aae1d7573eee691d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Ceiling.mat using Guid(49d6cde84cf7a9d4aae1d7573eee691d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd97c6d907c2e816bbdc7a3be3d21e32') in 0.036420 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.260001 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Structure Props/Sprinkler 05.fbx
-  artifactKey: Guid(f537f7f255aee0346a45786b7b5b6c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Structure Props/Sprinkler 05.fbx using Guid(f537f7f255aee0346a45786b7b5b6c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4e5d69ab28c770d1d6bdbf3baec701') in 0.027238 seconds 
+  Time since last request: 0.000037 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Materials/Crate Short Mat.mat
+  artifactKey: Guid(c133acdb4b757304cac42731a69f5d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Materials/Crate Short Mat.mat using Guid(c133acdb4b757304cac42731a69f5d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e427ce4187af8322c87d59994ed5ef') in 0.029258 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.072480 seconds.
-  path: Assets/Mine/Models/Base/Tunnel3.fbx
-  artifactKey: Guid(bdf303a0817e7f34da6898fac45c3fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Base/Tunnel3.fbx using Guid(bdf303a0817e7f34da6898fac45c3fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473da452dc4a5b806db851f2b05b7546') in 0.167975 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/Simple Garage/Materials/_ForestGreen_.mat
+  artifactKey: Guid(282a49ee09057f44aa8fb4a71660a9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/_ForestGreen_.mat using Guid(282a49ee09057f44aa8fb4a71660a9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ae8e2d763e72f57ebe40c76f4f23c0') in 0.013141 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Mine/Models/Base/Turn3.fbx
-  artifactKey: Guid(80e2efea9f64f1f4099db3ec0f853748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Base/Turn3.fbx using Guid(80e2efea9f64f1f4099db3ec0f853748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82796b431beadf316a62b0f7ed69657') in 0.128229 seconds 
+  Time since last request: 0.000037 seconds.
+  path: Assets/Simple Garage/Materials/emmisiive.002.mat
+  artifactKey: Guid(af6db2a9628a7ec4d817bf5afb23d1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/emmisiive.002.mat using Guid(af6db2a9628a7ec4d817bf5afb23d1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce5c053f14877e2dd67262989b02c08') in 0.013638 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.554919 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall Corner.fbx
-  artifactKey: Guid(13d9c5811fd0fcf4986655f5dcf8d46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall Corner.fbx using Guid(13d9c5811fd0fcf4986655f5dcf8d46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750b3ff1d4072af28488a5f3a2e89987') in 0.017618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall DoorClosed.fbx
-  artifactKey: Guid(b47e3bba032b35441a80e6b384d61baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall DoorClosed.fbx using Guid(b47e3bba032b35441a80e6b384d61baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efbec291a4973e1425a4bd5cef51af4') in 0.046877 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall Fan.fbx
-  artifactKey: Guid(3a8384e20c816134c8d4a4d359d33c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall Fan.fbx using Guid(3a8384e20c816134c8d4a4d359d33c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff85e379c8f7f7db05dd6c5eb803e3b') in 0.067637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.202769 seconds.
-  path: Assets/Simple Garage/Models/White suitcase.fbx
-  artifactKey: Guid(9da4e6e9dbea8e8498df7878310535ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Models/White suitcase.fbx using Guid(9da4e6e9dbea8e8498df7878310535ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4279bf4e1cdb6ddb3035a0abb504b14') in 0.030269 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/Simple Garage/Materials/Black-4.mat
+  artifactKey: Guid(32c330ba2dea66c49a868b2037522165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Black-4.mat using Guid(32c330ba2dea66c49a868b2037522165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4ad10212c328977e234a8b6dddabf5') in 0.011553 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Models/XRControllerLeft.fbx
-  artifactKey: Guid(be3083a5f26d4e859d594ecbe632f87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Models/XRControllerLeft.fbx using Guid(be3083a5f26d4e859d594ecbe632f87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee48e3da908892eb62cd31c0a4727a90') in 0.066411 seconds 
+  path: Assets/Simple Garage/Materials/Exterior_Exterior_pbr_diffuse.mat
+  artifactKey: Guid(340f75f24897b0d4f8ff67aa590e1319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Materials/Exterior_Exterior_pbr_diffuse.mat using Guid(340f75f24897b0d4f8ff67aa590e1319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1923cdf63749aa87d9dd4163a90650') in 0.049120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.272590 seconds.
+  path: Assets/Simple Garage/Prefabs/White suitcase.002.prefab
+  artifactKey: Guid(aea0cd7025a136945a1b0ac84e6f35a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Prefabs/White suitcase.002.prefab using Guid(aea0cd7025a136945a1b0ac84e6f35a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40dda7d57c81b4d9b4f659f76b27349') in 0.048159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/XR Origin Pieces/XR Controller Right.prefab
+  artifactKey: Guid(9f3369e30fbd31f4bb596b1a99babe83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/XR Origin Pieces/XR Controller Right.prefab using Guid(9f3369e30fbd31f4bb596b1a99babe83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e080c3a9dc16eb23478a33dece5ede5') in 0.021133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.678638 seconds.
+  path: Assets/Mine/Prefabs/Base/TurnL.prefab
+  artifactKey: Guid(49561c9ced9a8a14a9aa40be4dd8248c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Prefabs/Base/TurnL.prefab using Guid(49561c9ced9a8a14a9aa40be4dd8248c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8082dad08cca643af4163a80c16a10ec') in 0.089416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/UI Sample.prefab
+  artifactKey: Guid(fd28f23af44f73f4a95e33435872ad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/UI Sample.prefab using Guid(fd28f23af44f73f4a95e33435872ad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b41907d06ec9b3be5ec88f862e3371e') in 0.025250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.584685 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Teleport/Teleport Anchor.prefab
+  artifactKey: Guid(fad94b617f0540568dbf4c9c4011248c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Teleport/Teleport Anchor.prefab using Guid(fad94b617f0540568dbf4c9c4011248c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0ca3ba34d49e9b3213e7df6e9e746f') in 0.026318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Teleport/Teleport Area.prefab
+  artifactKey: Guid(beb4e2871579447497fe41dfb108e2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Teleport/Teleport Area.prefab using Guid(beb4e2871579447497fe41dfb108e2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936f13b733b9d8fb51f5a4c5bbf2f3db') in 0.020230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.936069 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Props/Shelves/Shelf Variation 02.prefab
+  artifactKey: Guid(5c1b535d3782bee49819656f221e56de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Props/Shelves/Shelf Variation 02.prefab using Guid(5c1b535d3782bee49819656f221e56de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3edae57b32b29bae935816c7ad7d6a') in 0.090606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SciFi Warehouse Kit/Prefabs/Props/Shelves/Shelf Variation 06.prefab
+  artifactKey: Guid(cd855204aa12c124189ffacf02f440d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Prefabs/Props/Shelves/Shelf Variation 06.prefab using Guid(cd855204aa12c124189ffacf02f440d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5049b392b7e8d5b2f2871e2f5be7776d') in 0.063471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.384156 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/XR Origin Pieces/Ray Interactor.prefab
+  artifactKey: Guid(ad818c36731146e994540a1896ad8f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/XR Origin Pieces/Ray Interactor.prefab using Guid(ad818c36731146e994540a1896ad8f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e36093ce781e6d4b2750ce5eabafe86') in 0.024915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Simple Garage/Prefabs/Red suitcase.prefab
+  artifactKey: Guid(3c038440dce791140a9e285b50533002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Prefabs/Red suitcase.prefab using Guid(3c038440dce791140a9e285b50533002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce22f6986f22565693f982dd62b2c58') in 0.047202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mine/Prefabs/Rocks/Rock1.prefab
+  artifactKey: Guid(512245daca745f64693d790c6c69d575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Prefabs/Rocks/Rock1.prefab using Guid(512245daca745f64693d790c6c69d575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2089ebaf31963d12ec084f7fc786ee14') in 0.090019 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
