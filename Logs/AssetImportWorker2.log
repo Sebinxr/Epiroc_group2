@@ -1,0 +1,319 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'sv' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/sebas/OneDrive/Dokument/GitHub/flowtropolis_group2
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50488
+Successfully changed project path to: C:/Users/sebas/OneDrive/Dokument/GitHub/flowtropolis_group2
+C:/Users/sebas/OneDrive/Dokument/GitHub/flowtropolis_group2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18376] Host "[IP] 172.18.34.149 [Port] 0 [Flags] 2 [Guid] 3226635725 [EditorId] 3226635725 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18376] Host "[IP] 172.18.34.149 [Port] 0 [Flags] 2 [Guid] 3226635725 [EditorId] 3226635725 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Refreshing native plugins compatible for Editor in 100.33 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.52 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/sebas/OneDrive/Dokument/GitHub/flowtropolis_group2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.2737
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003948 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Refreshing native plugins compatible for Editor in 83.42 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.546 seconds
+Domain Reload Profiling:
+	ReloadAssembly (546ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (408ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (85ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (260ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (53ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007369 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\sebas\OneDrive\Dokument\GitHub\flowtropolis_group2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\sebas\OneDrive\Dokument\GitHub\flowtropolis_group2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Refreshing native plugins compatible for Editor in 84.15 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\sebas\OneDrive\Dokument\GitHub\flowtropolis_group2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\sebas\OneDrive\Dokument\GitHub\flowtropolis_group2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <75633565436c42f0a6426b33f0132ade>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <75633565436c42f0a6426b33f0132ade>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <11d97693183d4a6bb35c29ae7882c66b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.198 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1198ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (912ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (494ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (255ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+========================================================================
+Worker process is ready to serve import requests
+Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.59 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 4650 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (58.0 KB). Loaded Objects now: 5116.
+Memory consumption went from 168.8 MB to 168.7 MB.
+Total: 3.299000 ms (FindLiveObjects: 0.404800 ms CreateObjectMapping: 0.173000 ms MarkObjects: 2.631900 ms  DeleteObjects: 0.087800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1824.826921 seconds.
+  path: Assets/Rock Builder/Assets/Materials
+  artifactKey: Guid(193949f260355344d835abb60fe55ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Builder/Assets/Materials using Guid(193949f260355344d835abb60fe55ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800beff78a0bc0d077ea5c6374c1a491') in 0.012604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067507 seconds.
+  path: Assets/Rock Builder/Assets/Materials/RB_MAT_Boulder.mat
+  artifactKey: Guid(03acf38dbcbd08d4ead513c8f7d8d2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Builder/Assets/Materials/RB_MAT_Boulder.mat using Guid(03acf38dbcbd08d4ead513c8f7d8d2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb99d93cc2df5fcc85037e27a17a7bd3') in 0.135224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.651035 seconds.
+  path: Assets/Rock Builder/Editor
+  artifactKey: Guid(592717d1cffcaa14e8a14a0216fbcea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Builder/Editor using Guid(592717d1cffcaa14e8a14a0216fbcea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac01a6aeaa9967a86be56429e8b7fd35') in 0.006564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.944812 seconds.
+  path: Assets/Rock Builder/Editor/Tests
+  artifactKey: Guid(3dba4d10ac7f2d04d849e2f882ec311f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Builder/Editor/Tests using Guid(3dba4d10ac7f2d04d849e2f882ec311f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb868493acc1160a60ed61fc253d023') in 0.006826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.787729 seconds.
+  path: Assets/Rock Builder/Editor/Tests/Generator
+  artifactKey: Guid(054a6725e84820b4a95411d241c53bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Builder/Editor/Tests/Generator using Guid(054a6725e84820b4a95411d241c53bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b6b62fdaa8efd6c9ff4cf3b1920f8a') in 0.006450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.003967 seconds.
+  path: Assets/Rock Builder/Editor/Tests/Generator/GemStones
+  artifactKey: Guid(36b93d466c579fe40b84538f08056a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Builder/Editor/Tests/Generator/GemStones using Guid(36b93d466c579fe40b84538f08056a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c87fe9ba7fcd946fbf221348fc99b7') in 0.006567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.355663 seconds.
+  path: Assets/Rock Builder/Editor/Tests/Generator/GemStones/Diamond
+  artifactKey: Guid(51210044a0f44824785552e987c8fbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Builder/Editor/Tests/Generator/GemStones/Diamond using Guid(51210044a0f44824785552e987c8fbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ec47f29008f15a28793a7dadc106f1') in 0.006291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.583209 seconds.
+  path: Assets/Rock Builder/Editor/Tests/Generator/GemStones/Diamond/DiamondServiceTest.cs
+  artifactKey: Guid(01a82f9fed582164ebf19c3d858a0092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Builder/Editor/Tests/Generator/GemStones/Diamond/DiamondServiceTest.cs using Guid(01a82f9fed582164ebf19c3d858a0092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45229e25143613b5a01942916b5064b0') in 0.014055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.461047 seconds.
+  path: Assets/Rock Builder/Editor/Tests/Generator/Rocks
+  artifactKey: Guid(932a3aa204ac6b94c8432b66c6bc0029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Builder/Editor/Tests/Generator/Rocks using Guid(932a3aa204ac6b94c8432b66c6bc0029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c6ac71dee6b556646b307f1753f041') in 0.021080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.910742 seconds.
+  path: Assets/Rock Builder/Editor/Tests/Generator/Rocks/StandardRock
+  artifactKey: Guid(2ae7aa7133fca4c42be62c5cb0b1bb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Builder/Editor/Tests/Generator/Rocks/StandardRock using Guid(2ae7aa7133fca4c42be62c5cb0b1bb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337648ac427f42901150d3d681e11085') in 0.006306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.842756 seconds.
+  path: Assets/Rock Builder/Editor/Tests/Generator/Rocks/StandardRock/Cube
+  artifactKey: Guid(61aa6b7dc30e6cb48a916c0ff6f997df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Builder/Editor/Tests/Generator/Rocks/StandardRock/Cube using Guid(61aa6b7dc30e6cb48a916c0ff6f997df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c74092c715985da2c4bae18a4eb828') in 0.008340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.167688 seconds.
+  path: Assets/Rock Builder/Assets/Scripts
+  artifactKey: Guid(4a36c81a7da7d114f85c249720a3831f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Builder/Assets/Scripts using Guid(4a36c81a7da7d114f85c249720a3831f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407e53d99c17cb2befa79e1991fdf6c7') in 0.006308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.456188 seconds.
+  path: Assets/Rock Builder/Documentation/UserManual_RockBuilder.pdf
+  artifactKey: Guid(5938aa06d7acc7343977729438622511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Builder/Documentation/UserManual_RockBuilder.pdf using Guid(5938aa06d7acc7343977729438622511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802a31155c3dd0615802a5357c951c47') in 0.010702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 134.073967 seconds.
+  path: Assets/Rock Builder/Assets/Materials/Shadergraphs
+  artifactKey: Guid(e440656cc25208a48b3c1e03a57e020f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Builder/Assets/Materials/Shadergraphs using Guid(e440656cc25208a48b3c1e03a57e020f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7012a83d684d0c5ab827c9c5782e1da') in 0.008678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.089938 seconds.
+  path: Assets/Rock Builder/Assets/Materials/Shadergraphs/Snow_Shader.shadergraph
+  artifactKey: Guid(6ea78c07003f22744962f0408e091d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Builder/Assets/Materials/Shadergraphs/Snow_Shader.shadergraph using Guid(6ea78c07003f22744962f0408e091d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b199b6570701d6df7a78cb717f0785a') in 0.012938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.856484 seconds.
+  path: Assets/Rock Builder/Assets/Materials/Shadergraphs/Rock_Shader.shadergraph
+  artifactKey: Guid(276caaffca2f46a4b9b4acb06f5bc5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Builder/Assets/Materials/Shadergraphs/Rock_Shader.shadergraph using Guid(276caaffca2f46a4b9b4acb06f5bc5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d99eaf7ed079861c8a10aaf297dc801') in 0.007045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.970301 seconds.
+  path: Assets/Rock Builder/Assets/Materials/Shadergraphs/Pulsing_Gem_Shader.shadergraph
+  artifactKey: Guid(5097c79133da88a4ba7cdc6fad008872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Builder/Assets/Materials/Shadergraphs/Pulsing_Gem_Shader.shadergraph using Guid(5097c79133da88a4ba7cdc6fad008872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f345b0bef346d0db7013bc54c41883') in 0.007114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 536.863011 seconds.
+  path: Assets/Rock Builder
+  artifactKey: Guid(61d25250283d9894698afc241a091b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Builder using Guid(61d25250283d9894698afc241a091b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d7d48cfa6b378e18b76271b9429722') in 0.007946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.412054 seconds.
+  path: Assets/Rock Builder/Editor/Tests/TestUtilities
+  artifactKey: Guid(bceab3d4b1e1fca4b927a72b27ba5493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rock Builder/Editor/Tests/TestUtilities using Guid(bceab3d4b1e1fca4b927a72b27ba5493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4a3c649a75b857b9eb3ebbc771079f') in 0.006928 seconds 
