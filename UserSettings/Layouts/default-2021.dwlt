@@ -344,7 +344,7 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 0
+    m_SearchArea: 1
     m_Folders:
     - Assets
     m_Globs: []
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\sebas\OneDrive\Dokument\GitHub\flowtropolis_group2
+  m_LastProjectPath: D:\Hyper Island\Industry Simulation\FlowTroPolis\flowtropolis_group2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -519,7 +519,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2efbffff
+      m_ExpandedIDs: 2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -852,11 +852,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.026126364, y: -0.97339123, z: 0.1450205, w: 0.17534748}
     speed: 2
-    m_Value: {x: 0.025863927, y: -0.9736317, z: 0.1435638, w: 0.1753908}
+    m_Value: {x: -0.026127005, y: 0.9734152, z: -0.14502408, w: -0.1753518}
   m_Size:
     m_Target: 2.695412
     speed: 2
-    m_Value: 2.5793417
+    m_Value: 2.695412
   m_Ortho:
     m_Target: 0
     speed: 2
