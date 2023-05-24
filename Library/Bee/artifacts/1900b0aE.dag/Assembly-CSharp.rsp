@@ -382,6 +382,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/Old Hangar/Demo/Script/ThirdPersonCamera.cs"
 "Assets/Rock Builder/Assets/Scripts/Generator/GemStones/Crystal/Crystal.cs"
 "Assets/Rock Builder/Assets/Scripts/Generator/GemStones/Crystal/CrystalMeshGenerator.cs"
 "Assets/Rock Builder/Assets/Scripts/Generator/GemStones/Crystal/CrystalPreview.cs"

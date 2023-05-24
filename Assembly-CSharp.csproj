@@ -89,6 +89,7 @@
     <Compile Include="Assets\Rock Builder\Assets\Scripts\Generator\Utilities\GemHandles.cs" />
     <Compile Include="Assets\Rock Builder\Assets\Scripts\Generator\Rocks\StandardRock\Cube\CubeRockPreview.cs" />
     <Compile Include="Assets\Rock Builder\Assets\Scripts\UI\UiSample.cs" />
+    <Compile Include="Assets\Old Hangar\Demo\Script\ThirdPersonCamera.cs" />
     <Compile Include="Assets\Rock Builder\Assets\Scripts\Generator\GemStones\Diamond\DiamondService.cs" />
     <Compile Include="Assets\Rock Builder\Assets\Scripts\Generator\GemStones\Diamond\Diamond.cs" />
   </ItemGroup>

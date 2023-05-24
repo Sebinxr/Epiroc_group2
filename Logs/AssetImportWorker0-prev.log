@@ -15,7 +15,7 @@ D:/Hyper Island/Industry Simulation/FlowTroPolis/flowtropolis_group2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60936
+63645
 Successfully changed project path to: D:/Hyper Island/Industry Simulation/FlowTroPolis/flowtropolis_group2
 D:/Hyper Island/Industry Simulation/FlowTroPolis/flowtropolis_group2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,15 +47,15 @@ D:/Hyper Island/Industry Simulation/FlowTroPolis/flowtropolis_group2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [43716] Host "[IP] 192.168.1.153 [Port] 0 [Flags] 2 [Guid] 420270331 [EditorId] 420270331 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [39020] Host "[IP] 192.168.1.153 [Port] 0 [Flags] 2 [Guid] 2012095800 [EditorId] 2012095800 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [43716] Host "[IP] 192.168.1.153 [Port] 0 [Flags] 2 [Guid] 420270331 [EditorId] 420270331 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [39020] Host "[IP] 192.168.1.153 [Port] 0 [Flags] 2 [Guid] 2012095800 [EditorId] 2012095800 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 99.15 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.66 ms.
+Refreshing native plugins compatible for Editor in 185.91 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 1.99 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Hyper Island/Industry Simulation/FlowTroPolis/flowtropolis_group2/Assets
@@ -70,50 +70,50 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007975 seconds.
+Registered in 0.010422 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 83.06 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
+Refreshing native plugins compatible for Editor in 82.88 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.607 seconds
+- Completed reload, in  0.633 seconds
 Domain Reload Profiling:
-	ReloadAssembly (607ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (633ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (429ms)
-			LoadAssemblies (76ms)
+		EndReloadAssembly (416ms)
+			LoadAssemblies (114ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (88ms)
+			SetupTypeCache (92ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (259ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (257ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (59ms)
+				InitializePlatformSupportModulesInManaged (49ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (83ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (79ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012008 seconds.
+Registered in 0.028499 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Hyper Island\Industry Simulation\FlowTroPolis\flowtropolis_group2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\Hyper Island\Industry Simulation\FlowTroPolis\flowtropolis_group2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -122,8 +122,8 @@ Native extension for Android target not found
 Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 81.82 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
+Refreshing native plugins compatible for Editor in 183.68 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Hyper Island\Industry Simulation\FlowTroPolis\flowtropolis_group2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
@@ -141,33 +141,33 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.264 seconds
+- Completed reload, in  2.792 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1265ms)
-		BeginReloadAssembly (218ms)
+	ReloadAssembly (2793ms)
+		BeginReloadAssembly (408ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (129ms)
-		EndReloadAssembly (950ms)
-			LoadAssemblies (104ms)
+			CreateAndSetChildDomain (202ms)
+		EndReloadAssembly (2166ms)
+			LoadAssemblies (234ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (248ms)
+			SetupTypeCache (557ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (512ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (1235ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (29ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (82ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (263ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
+				RefreshPlugins (184ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (743ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (35ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
@@ -177,13 +177,13 @@ Worker process is ready to serve import requests
 Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.72 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 4652 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 57 unused Assets / (58.1 KB). Loaded Objects now: 5118.
-Memory consumption went from 168.9 MB to 168.8 MB.
-Total: 3.465200 ms (FindLiveObjects: 0.314400 ms CreateObjectMapping: 0.112700 ms MarkObjects: 2.952700 ms  DeleteObjects: 0.084500 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 2.78 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 4826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (58.2 KB). Loaded Objects now: 5292.
+Memory consumption went from 186.1 MB to 186.0 MB.
+Total: 12.038500 ms (FindLiveObjects: 2.495300 ms CreateObjectMapping: 3.815700 ms MarkObjects: 5.579600 ms  DeleteObjects: 0.146500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -198,13 +198,83 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 190801.840456 seconds.
-  path: Assets/crystal.mat
-  artifactKey: Guid(dce0611a6d1ff9d41a57a5d1f05ccaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/crystal.mat using Guid(dce0611a6d1ff9d41a57a5d1f05ccaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28934a31fe385935013d7250e25c777') in 0.114228 seconds 
+  Time since last request: 196150.421189 seconds.
+  path: Assets/FPSHangar/Scene/Hangar.unity
+  artifactKey: Guid(041c9849c1427104ab78c9b4bb17050b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPSHangar/Scene/Hangar.unity using Guid(041c9849c1427104ab78c9b4bb17050b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f017ed7f13ca85406bb41b3f4ad1d756') in 0.051845 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/diamond.mat
-  artifactKey: Guid(111afe5f8e0382540b15a1c6020724f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/diamond.mat using Guid(111afe5f8e0382540b15a1c6020724f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96b87962a54802f1d0eaf7f0b8b9611') in 0.014911 seconds 
+  Time since last request: 0.000041 seconds.
+  path: Assets/FPSHangar/Scene
+  artifactKey: Guid(faaa1cf5c5dd79645bd6d6aca856a11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPSHangar/Scene using Guid(faaa1cf5c5dd79645bd6d6aca856a11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e240a36fcd6df8e3827fe0211cf7439') in 0.020773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/FPSHangar
+  artifactKey: Guid(da88e4a8737192b44b512ec1761a0de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPSHangar using Guid(da88e4a8737192b44b512ec1761a0de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e6ccde71bdda1ac2b73b72625de2ef') in 0.015185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FPSHangar/Test.prefab
+  artifactKey: Guid(502f99ebc48c9dc4abcc9f2bc203b155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPSHangar/Test.prefab using Guid(502f99ebc48c9dc4abcc9f2bc203b155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb54c91308cf194cffa1dac9acb9e241') in 0.070893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 285.290541 seconds.
+  path: Assets/Old Hangar/Old Hangar_FBX.fbx
+  artifactKey: Guid(6ab693db99e1c8a48939c522d49a62ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Hangar/Old Hangar_FBX.fbx using Guid(6ab693db99e1c8a48939c522d49a62ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277a175addac1fbf2ae4920183b93443') in 1.890721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 374.112338 seconds.
+  path: Assets/Old Hangar/Materials/Brick_Mat.mat
+  artifactKey: Guid(bdca9da6fd490f44caa2785d778725c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Hangar/Materials/Brick_Mat.mat using Guid(bdca9da6fd490f44caa2785d778725c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2589eb87da37c75986cf5db35899b821') in 0.271574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Old Hangar/Materials/Text_Mat.mat
+  artifactKey: Guid(f51da9884f6e5f144a776053ebc38e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Hangar/Materials/Text_Mat.mat using Guid(f51da9884f6e5f144a776053ebc38e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b84a3ea2b36c67ef6b55195f94ae8c') in 0.080228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016170 seconds.
+  path: Assets/Old Hangar/Materials/Ground_Mat.mat
+  artifactKey: Guid(99b36c568d7ed48419441e133b64b9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Hangar/Materials/Ground_Mat.mat using Guid(99b36c568d7ed48419441e133b64b9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23d943ce3b768c12d79ca41f588402f') in 0.051819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.331796 seconds.
+  path: Assets/Old Hangar/Materials/Textures/Brick_Normal.png
+  artifactKey: Guid(41ab9202371d4b940bbeb524e1611439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Hangar/Materials/Textures/Brick_Normal.png using Guid(41ab9202371d4b940bbeb524e1611439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf1cd0593e57278a26096f10cdcd82a') in 0.168699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Old Hangar/Materials/Textures/Wood_Normal.png
+  artifactKey: Guid(ab06c4862b105254ca3ac45834d3e4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Hangar/Materials/Textures/Wood_Normal.png using Guid(ab06c4862b105254ca3ac45834d3e4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ea7824fe2dfc5a0109797812483a14') in 0.084386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Old Hangar/Materials/Textures/Brick_Tex.png
+  artifactKey: Guid(35df39d2f7fb2884ebd0ce744c010c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Hangar/Materials/Textures/Brick_Tex.png using Guid(35df39d2f7fb2884ebd0ce744c010c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847086295625a72bdbd7bb1a3a501330') in 0.202169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008286 seconds.
+  path: Assets/Old Hangar/Materials/Textures/Wood_Tex.png
+  artifactKey: Guid(225dd9df75a241446bc7e17788c446f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Hangar/Materials/Textures/Wood_Tex.png using Guid(225dd9df75a241446bc7e17788c446f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a61319cde41d4ed366ec7b2968924fc') in 0.086721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036102 seconds.
+  path: Assets/Old Hangar/Materials/Textures/Text_Tex.png
+  artifactKey: Guid(cf176bda933301b459ee1dffc0438fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Hangar/Materials/Textures/Text_Tex.png using Guid(cf176bda933301b459ee1dffc0438fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87dab9e7dfc8efce88258686b5e49290') in 0.089756 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
