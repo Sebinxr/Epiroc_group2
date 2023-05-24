@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'sv' Physical Memory: 16085 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 15791 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/sebas/OneDrive/Dokument/GitHub/flowtropolis_group2
+D:/Hyper Island/Industry Simulation/FlowTroPolis/flowtropolis_group2
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-53880
-Successfully changed project path to: C:/Users/sebas/OneDrive/Dokument/GitHub/flowtropolis_group2
-C:/Users/sebas/OneDrive/Dokument/GitHub/flowtropolis_group2
+63645
+Successfully changed project path to: D:/Hyper Island/Industry Simulation/FlowTroPolis/flowtropolis_group2
+D:/Hyper Island/Industry Simulation/FlowTroPolis/flowtropolis_group2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,95 +47,87 @@ C:/Users/sebas/OneDrive/Dokument/GitHub/flowtropolis_group2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20072] Host "[IP] 172.18.34.149 [Port] 0 [Flags] 2 [Guid] 1128454633 [EditorId] 1128454633 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [40848] Host "[IP] 192.168.1.153 [Port] 0 [Flags] 2 [Guid] 2781978674 [EditorId] 2781978674 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20072] Host "[IP] 172.18.34.149 [Port] 0 [Flags] 2 [Guid] 1128454633 [EditorId] 1128454633 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [40848] Host "[IP] 192.168.1.153 [Port] 0 [Flags] 2 [Guid] 2781978674 [EditorId] 2781978674 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 116.93 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.61 ms.
+Refreshing native plugins compatible for Editor in 215.23 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 1.41 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/sebas/OneDrive/Dokument/GitHub/flowtropolis_group2/Assets
+[Subsystems] Discovering subsystems at path D:/Hyper Island/Industry Simulation/FlowTroPolis/flowtropolis_group2/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
     Vendor:   NVIDIA
-    VRAM:     6009 MB
-    Driver:   31.0.15.2737
+    VRAM:     8033 MB
+    Driver:   31.0.15.2824
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005271 seconds.
+Registered in 0.018648 seconds.
 Native extension for WindowsStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-Native extension for iOS target not found
 Native extension for Android target not found
-Native extension for WebGL target not found
 Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 108.84 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
+Refreshing native plugins compatible for Editor in 236.96 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 4.27 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.708 seconds
+- Completed reload, in  2.973 seconds
 Domain Reload Profiling:
-	ReloadAssembly (709ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (2974ms)
+		BeginReloadAssembly (1362ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (528ms)
-			LoadAssemblies (76ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1369ms)
+			LoadAssemblies (1323ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (121ms)
+			SetupTypeCache (253ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (314ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (921ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (75ms)
+				InitializePlatformSupportModulesInManaged (135ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (109ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (82ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				RefreshPlugins (241ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (464ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011663 seconds.
+Registered in 0.020694 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\sebas\OneDrive\Dokument\GitHub\flowtropolis_group2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\sebas\OneDrive\Dokument\GitHub\flowtropolis_group2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Hyper Island\Industry Simulation\FlowTroPolis\flowtropolis_group2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Hyper Island\Industry Simulation\FlowTroPolis\flowtropolis_group2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
 Native extension for Android target not found
-Native extension for WebGL target not found
 Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Refreshing native plugins compatible for Editor in 113.44 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 94.91 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\sebas\OneDrive\Dokument\GitHub\flowtropolis_group2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\sebas\OneDrive\Dokument\GitHub\flowtropolis_group2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Hyper Island\Industry Simulation\FlowTroPolis\flowtropolis_group2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Hyper Island\Industry Simulation\FlowTroPolis\flowtropolis_group2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <75633565436c42f0a6426b33f0132ade>:0 
    --- End of inner exception stack trace ---
@@ -149,33 +141,33 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.304 seconds
+- Completed reload, in  1.365 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1305ms)
-		BeginReloadAssembly (199ms)
+	ReloadAssembly (1366ms)
+		BeginReloadAssembly (219ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (130ms)
-		EndReloadAssembly (984ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (1046ms)
+			LoadAssemblies (161ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (270ms)
+			SetupTypeCache (233ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (538ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (572ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (114ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (263ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
@@ -185,193 +177,98 @@ Worker process is ready to serve import requests
 Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.90 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-Unloading 4652 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 57 unused Assets / (58.0 KB). Loaded Objects now: 5118.
-Memory consumption went from 168.9 MB to 168.8 MB.
-Total: 3.062000 ms (FindLiveObjects: 0.343900 ms CreateObjectMapping: 0.140000 ms MarkObjects: 2.483700 ms  DeleteObjects: 0.093300 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4827 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (58.5 KB). Loaded Objects now: 5300.
+Memory consumption went from 187.3 MB to 187.3 MB.
+Total: 4.100700 ms (FindLiveObjects: 0.381900 ms CreateObjectMapping: 0.299700 ms MarkObjects: 3.306400 ms  DeleteObjects: 0.110300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 5630.380464 seconds.
-  path: Assets/Rock Builder/Assets/Materials/RB_MAT_Snowstone.mat
-  artifactKey: Guid(bf4c2f05c6512d248a3c56a9d0a37172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rock Builder/Assets/Materials/RB_MAT_Snowstone.mat using Guid(bf4c2f05c6512d248a3c56a9d0a37172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f33ad04155f1ea90457d6cbd5939ee') in 0.135088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Rock Builder/Assets/Materials/RB_MAT_Pulsing_Gem.mat
-  artifactKey: Guid(519870676092e15408c10ba784bbc41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rock Builder/Assets/Materials/RB_MAT_Pulsing_Gem.mat using Guid(519870676092e15408c10ba784bbc41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5661d88bebf90be349545f8d3709e7') in 0.033695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Mine/Models/Props/Materials/Wood.mat
-  artifactKey: Guid(ae5d0d5a80baeca49a557b79a2106c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Props/Materials/Wood.mat using Guid(ae5d0d5a80baeca49a557b79a2106c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83dc57cb9fc8840240e9e7309abfcdc4') in 0.059211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Materials/Light Mat.mat
-  artifactKey: Guid(bc9fc69a1c4243343bff25dd7532a1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Materials/Light Mat.mat using Guid(bc9fc69a1c4243343bff25dd7532a1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ff705705bdbd25f77c94ce42b8ec54') in 0.044427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Simple Garage/Materials/[0136_Charcoal]2.mat
-  artifactKey: Guid(a1bfe3a4435270d4eb36c3f8b89f6215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[0136_Charcoal]2.mat using Guid(a1bfe3a4435270d4eb36c3f8b89f6215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b922c81c83aa3520494565ab4f03aad') in 0.026165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Materials/Light Fixture Mat.mat
-  artifactKey: Guid(bb2d88d2112f74d4b8dfef23a4b5d31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Materials/Light Fixture Mat.mat using Guid(bb2d88d2112f74d4b8dfef23a4b5d31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8e21dfcd24025e8464659d950a22fa') in 0.027847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Mine/Models/Props/Materials/Lantern.mat
-  artifactKey: Guid(c1dba05084b54ea449d47a9fbdd098b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Props/Materials/Lantern.mat using Guid(c1dba05084b54ea449d47a9fbdd098b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4c759e4a5bc906efb9a4e56fefe246') in 0.028389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Simple Garage/Materials/[Color_D03].001.mat
-  artifactKey: Guid(e8d3acfcf45369b47984c04d0b7bebb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[Color_D03].001.mat using Guid(e8d3acfcf45369b47984c04d0b7bebb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49155c6ad6cb8d4515c350608238b9d5') in 0.022512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Rock Builder/Assets/Materials/RB_MAT_Ruby.mat
-  artifactKey: Guid(6fce63962ffc90e4895249526f88bb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rock Builder/Assets/Materials/RB_MAT_Ruby.mat using Guid(6fce63962ffc90e4895249526f88bb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0fd5b6276b21eeb95a84a4d4f55d53') in 0.022489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Mine/Models/Rocks/Materials/OreRed.mat
-  artifactKey: Guid(6bbcfd1374a4d314eb439fca728f0822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Rocks/Materials/OreRed.mat using Guid(6bbcfd1374a4d314eb439fca728f0822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a049d5fff77c3fe27be8a7590da7d9d') in 0.017829 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Mine/Models/Props/Materials/Hatch.mat
-  artifactKey: Guid(aa9633eae3ce4df4598f940e0feb4a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Props/Materials/Hatch.mat using Guid(aa9633eae3ce4df4598f940e0feb4a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216cd42970470aebd389664f7e0a4e9a') in 0.021021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Materials/Pallet Mat.mat
-  artifactKey: Guid(e2f46f807b3b19a4491e113702211cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Materials/Pallet Mat.mat using Guid(e2f46f807b3b19a4491e113702211cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd738a3cf303c636b0a89e2d54a620b1') in 0.020840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Simple Garage/Materials/Metal_Corrogated_Shiny.mat
-  artifactKey: Guid(3101f5fcaa024284ba283f278804f7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/Metal_Corrogated_Shiny.mat using Guid(3101f5fcaa024284ba283f278804f7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb487b15d574d7176b0774a71a4f7b10') in 0.020740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Mine/Models/Rocks/Materials/Rock1.mat
-  artifactKey: Guid(32a7426e15734484f921ba2766a06d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Rocks/Materials/Rock1.mat using Guid(32a7426e15734484f921ba2766a06d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb99bff6da114293ab110ca3fdad9433') in 0.021781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Simple Garage/Materials/[Color_C14].mat
-  artifactKey: Guid(8f2b7ac5ceaeadc44838c40dd161480e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[Color_C14].mat using Guid(8f2b7ac5ceaeadc44838c40dd161480e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666c58e0f7b6dde62c4bfc390f26357f') in 0.014663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Simple Garage/Materials/Floor.mat
-  artifactKey: Guid(62c006922a11952419e8ee50d28443de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/Floor.mat using Guid(62c006922a11952419e8ee50d28443de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faeb2ae1a50aff8e09ac05c177f7fb08') in 0.041506 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/SciFi Warehouse Kit/Art/Materials/Sign Red.mat
-  artifactKey: Guid(104dfe4e9eaf15e42b9645fc2a6f54eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi Warehouse Kit/Art/Materials/Sign Red.mat using Guid(104dfe4e9eaf15e42b9645fc2a6f54eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17809809505f369c7744b4d45ea0fd3b') in 0.014747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Simple Garage/Materials/[Color H08].mat
-  artifactKey: Guid(068ccec6c0b7c534a90dfff20710c38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[Color H08].mat using Guid(068ccec6c0b7c534a90dfff20710c38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebeb12e15ed7dc4b6058329ddb97af6') in 0.014291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Simple Garage/Materials/_16.mat
-  artifactKey: Guid(e442faa0dbf483c4ca6d09db3a5156c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/_16.mat using Guid(e442faa0dbf483c4ca6d09db3a5156c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfabb293762b1f506969b74131a319f') in 0.017993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Samples/XR Hands/1.1.0/HandVisualizer/Materials/Green.mat
-  artifactKey: Guid(727f87098255ad04987a60f5f08390bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Hands/1.1.0/HandVisualizer/Materials/Green.mat using Guid(727f87098255ad04987a60f5f08390bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0c46364603347ca011e883ec38f33b') in 0.032522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Simple Garage/Materials/_6.mat
-  artifactKey: Guid(592e40746ca9cf944839b21915d3e414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/_6.mat using Guid(592e40746ca9cf944839b21915d3e414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72699a9bfbf6f307329f5833f1b3cf98') in 0.015478 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Simple Garage/Materials/Small stool albedo.mat
-  artifactKey: Guid(df3619f9104793a45a4388dddf4291ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/Small stool albedo.mat using Guid(df3619f9104793a45a4388dddf4291ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbf916ef29ae9465dd81e4935312ebe') in 0.019958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Samples/XR Hands/1.1.0/HandVisualizer/Materials/White.mat
-  artifactKey: Guid(c3474c208278e814cb8d1c29aa806e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Hands/1.1.0/HandVisualizer/Materials/White.mat using Guid(c3474c208278e814cb8d1c29aa806e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c8293a43733e4bf3ea08901a4f3a89') in 0.014815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Simple Garage/Materials/Longboard.wheels.mat
-  artifactKey: Guid(3038a907f8152d646a6777016ad52194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/Longboard.wheels.mat using Guid(3038a907f8152d646a6777016ad52194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f9b2fa6e5469e2021f2c028a5488e5') in 0.016442 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Simple Garage/Materials/light emission no.001.mat
-  artifactKey: Guid(65ec10b3ef35a394c9054456fd386643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/light emission no.001.mat using Guid(65ec10b3ef35a394c9054456fd386643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a980af00503b0851764042307d03ba4a') in 0.015422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Mine/Models/Rocks/Materials/OreGreen.mat
-  artifactKey: Guid(d43ae590d6f04de48817c416343eaba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mine/Models/Rocks/Materials/OreGreen.mat using Guid(d43ae590d6f04de48817c416343eaba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c059ff406068a16ea12b6789578b1d9b') in 0.016770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Simple Garage/Materials/[Color_A01].mat
-  artifactKey: Guid(04497a13553e04046aa5be6e84c08ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/[Color_A01].mat using Guid(04497a13553e04046aa5be6e84c08ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117957a64df2462240e71a46158e53f0') in 0.020671 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Samples/XR Hands/1.1.0/HandVisualizer/Materials/Red.mat
-  artifactKey: Guid(55fa12dc7870f1e46b6a7f8617949a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Hands/1.1.0/HandVisualizer/Materials/Red.mat using Guid(55fa12dc7870f1e46b6a7f8617949a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0351f14073cc4deef6c55699b2c46290') in 0.014818 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Assets/Low Poly machines/Low Poly machines/Excavator/Excavator.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Registering precompiled user dll's ...
+Registered in 0.011799 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Hyper Island\Industry Simulation\FlowTroPolis\flowtropolis_group2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Hyper Island\Industry Simulation\FlowTroPolis\flowtropolis_group2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Hyper Island\Industry Simulation\FlowTroPolis\flowtropolis_group2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Hyper Island\Industry Simulation\FlowTroPolis\flowtropolis_group2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <75633565436c42f0a6426b33f0132ade>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <75633565436c42f0a6426b33f0132ade>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <11d97693183d4a6bb35c29ae7882c66b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.176 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1176ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (913ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (297ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (410ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.18 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 4628 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 137 unused Assets / (25.7 KB). Loaded Objects now: 5214.
+Memory consumption went from 175.6 MB to 175.6 MB.
+Total: 7.056800 ms (FindLiveObjects: 0.958600 ms CreateObjectMapping: 0.706400 ms MarkObjects: 5.269000 ms  DeleteObjects: 0.120200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
