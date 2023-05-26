@@ -419,6 +419,7 @@
 "Assets/Script/EnterCollider.cs"
 "Assets/Script/RoomChangeTrigger.cs"
 "Assets/Script/WearhouseDestination.cs"
+"Assets/Teleportation Pad/CustomTeleporter.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
