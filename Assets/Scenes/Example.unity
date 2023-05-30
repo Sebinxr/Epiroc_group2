@@ -1992,7 +1992,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   room1: {fileID: 1630875383}
   room2: {fileID: 1519827154}
-  teleportButton: {fileID: 1068288043}
+  room3: {fileID: 0}
+  room4: {fileID: 0}
 --- !u!65 &147692069
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5680,6 +5681,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3127728407712097238, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+      propertyPath: m_MoveSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_RootOrder
       value: 4
