@@ -124,8 +124,116 @@ public class Button : MonoBehaviour
         // Destroy the current object
         Destroy(currentObject);
 
-        // Instantiate and set the new object
-        currentObject = Instantiate(selectedPrefab, new Vector3(-116, 1.50f, -45), Quaternion.identity);
+ 
+
+        if (selectedPrefab == prefab1)
+        {
+            // Instantiate and set the new object
+            currentObject = Instantiate(selectedPrefab, new Vector3(-112, 7.7f, -47f), Quaternion.Euler(0, -90, 0));
+        }
+
+       else if (selectedPrefab == prefab2)
+        {
+            // Instantiate and set the new object
+            currentObject = Instantiate(selectedPrefab, new Vector3(-112, 1.45f, -47f), Quaternion.Euler(0, -90, 0));
+        }
+
+        else if (selectedPrefab == prefab3)
+        {
+            // Instantiate and set the new object
+            currentObject = Instantiate(selectedPrefab, new Vector3(-112, 1.6f, -47f), Quaternion.Euler(-8, 0, 90));
+        }
+
+        else if (selectedPrefab == prefab4)
+        {
+            // Instantiate and set the new object
+            currentObject = Instantiate(selectedPrefab, new Vector3(-112, 1.45f, -47f), Quaternion.Euler(0, 90, 0));
+        }
+
+        else if (selectedPrefab == prefab5)
+        {
+            // Instantiate and set the new object
+            currentObject = Instantiate(selectedPrefab, new Vector3(-112, 1.45f, -47f), Quaternion.Euler(0, 0, 0));
+        }
+
+        else if (selectedPrefab == prefab6)
+        {
+            // Instantiate and set the new object
+            currentObject = Instantiate(selectedPrefab, new Vector3(-112, 1.45f, -47f), Quaternion.Euler(0, 0, 0));
+        }
+
+        else if (selectedPrefab == prefab7)
+        {
+            // Instantiate and set the new object
+            currentObject = Instantiate(selectedPrefab, new Vector3(-112, 1.45f, -47f), Quaternion.Euler(0, 0, 0));
+        }
+
+        else if (selectedPrefab == prefab8)
+        {
+            // Instantiate and set the new object
+            currentObject = Instantiate(selectedPrefab, new Vector3(-112, 2.5f, -47f), Quaternion.Euler(0, 0, 0));
+        }
+
+        else if (selectedPrefab == prefab9)
+        {
+            // Instantiate and set the new object
+            currentObject = Instantiate(selectedPrefab, new Vector3(-112, 1.45f, -47f), Quaternion.Euler(0, 0, 0));
+        }
+
+        else if (selectedPrefab == prefab10)
+        {
+            // Instantiate and set the new object
+            currentObject = Instantiate(selectedPrefab, new Vector3(-112, 1.47f, -47f), Quaternion.Euler(-90, 0, 180));
+        }
+
+        else if (selectedPrefab == prefab11)
+        {
+            // Instantiate and set the new object
+            currentObject = Instantiate(selectedPrefab, new Vector3(-112, 1.45f, -47f), Quaternion.Euler(0, 0, 0));
+        }
+
+        else if (selectedPrefab == prefab12)
+        {
+            // Instantiate and set the new object
+            currentObject = Instantiate(selectedPrefab, new Vector3(-112, 1.45f, -47f), Quaternion.Euler(0, 0, 0));
+        }
+
+        else if (selectedPrefab == prefab13)
+        {
+            // Instantiate and set the new object
+            currentObject = Instantiate(selectedPrefab, new Vector3(-112, 2.5f, -47f), Quaternion.Euler(0, 90, 0));
+        }
+
+        else if (selectedPrefab == prefab14)
+        {
+            // Instantiate and set the new object
+            currentObject = Instantiate(selectedPrefab, new Vector3(-112, 2f, -47f), Quaternion.Euler(0, 90, 0));
+        }
+
+        else if (selectedPrefab == prefab15)
+        {
+            // Instantiate and set the new object
+            currentObject = Instantiate(selectedPrefab, new Vector3(-112, 1.5f, -47f), Quaternion.Euler(0, 0, 0));
+        }
+
+        else if (selectedPrefab == prefab16)
+        {
+            // Instantiate and set the new object
+            currentObject = Instantiate(selectedPrefab, new Vector3(-112, 2.6f, -47f), Quaternion.Euler(0, 0, 0));
+        }
+
+        else if (selectedPrefab == prefab17)
+        {
+            // Instantiate and set the new object
+            currentObject = Instantiate(selectedPrefab, new Vector3(-112, 1.45f, -47f), Quaternion.Euler(0, 0, 0));
+        }
+
+        else if (selectedPrefab == prefab18)
+        {
+            // Instantiate and set the new object
+            currentObject = Instantiate(selectedPrefab, new Vector3(-112, 1.45f, -47f), Quaternion.Euler(0, 0, 0));
+        }
+
     }
   
 }
