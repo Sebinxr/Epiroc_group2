@@ -9,6 +9,7 @@ TagManager:
   - RoomTrigger
   - Room3
   - Room4
+  - RoomTrigger2
   layers:
   - Default
   - TransparentFX
