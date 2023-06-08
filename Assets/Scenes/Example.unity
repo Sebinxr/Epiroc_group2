@@ -97490,6 +97490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyCountText: {fileID: 1003225406}
   teleportationObjectPrefab: {fileID: 8522332432229986334, guid: 5e16f4f136e1715458d3191da7193ca2, type: 3}
+  fixedLocationTeleportation: {fileID: 8522332432784875241}
 --- !u!4 &7880694517821440160
 Transform:
   m_ObjectHideFlags: 0
@@ -103917,13 +103918,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1029609932}
     m_Modifications:
+    - target: {fileID: 8522332432117769778, guid: 5e16f4f136e1715458d3191da7193ca2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8522332432229986334, guid: 5e16f4f136e1715458d3191da7193ca2, type: 3}
       propertyPath: m_Name
       value: Room1
       objectReference: {fileID: 0}
     - target: {fileID: 8522332432229986334, guid: 5e16f4f136e1715458d3191da7193ca2, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8522332432229986335, guid: 5e16f4f136e1715458d3191da7193ca2, type: 3}
       propertyPath: m_RootOrder
@@ -103971,6 +103976,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e16f4f136e1715458d3191da7193ca2, type: 3}
+--- !u!1 &8522332432784875241 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8522332432117769778, guid: 5e16f4f136e1715458d3191da7193ca2, type: 3}
+  m_PrefabInstance: {fileID: 8522332432784875240}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8533349760411444594
 GameObject:
   m_ObjectHideFlags: 0
