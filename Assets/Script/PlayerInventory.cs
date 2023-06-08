@@ -7,9 +7,10 @@ public class PlayerInventory : MonoBehaviour
 {
     private int keyCount;
     public TextMeshProUGUI keyCountText;
-    public GameObject teleportationObject; // Reference to the teleportation script or object
+    public GameObject teleportationObjectPrefab; // Prefab of the teleportation area object
 
-    private bool isTeleportationUnlocked = false; // Variable to track the teleportation unlock status
+    private bool isTeleportationUnlocked = false;
+    private GameObject teleportationObject; // Reference to the spawned teleportation area object
 
     private void Start()
     {
@@ -22,8 +23,7 @@ public class PlayerInventory : MonoBehaviour
         keyCount++;
         UpdateKeyCountText();
 
-        // Check if the player has collected two stones
-        if (keyCount >= 10)
+        if (keyCount >= 2)
         {
             UnlockTeleportation();
         }
@@ -32,8 +32,10 @@ public class PlayerInventory : MonoBehaviour
     private void UnlockTeleportation()
     {
         isTeleportationUnlocked = true;
-        // Enable the teleportation functionality or activate the teleportation script
-        teleportationObject.SetActive(true);
+
+        // Calculate the spawn position slightly forward from the player's current position
+        Vector3 spawnPosition = transform.position + transform.forward * 2f + new Vector3(0f, 0.8f, 0f); // Adjust the values as needed
+        teleportationObject = Instantiate(teleportationObjectPrefab, spawnPosition, Quaternion.identity);
     }
 
     private void UpdateKeyCountText()
