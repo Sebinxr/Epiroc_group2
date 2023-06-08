@@ -97,6 +97,7 @@
     <Compile Include="Assets\Rock Builder\Assets\Scripts\Generator\Rocks\CustomRock\CustomRock.cs" />
     <Compile Include="Assets\Rock Builder\Assets\Scripts\Generator\Rocks\CustomRock\CustomRockMeshGenerator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\Script\MovementController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Rock Builder\Assets\Scripts\Generator\Rocks\StandardRock\Sphere\SphereRockMeshGenerator.cs" />
     <Compile Include="Assets\Rock Builder\Assets\Scripts\Generator\GemStones\Gem\GemPreview.cs" />
@@ -114,6 +115,7 @@
     <Compile Include="Assets\Rock Builder\Assets\Scripts\Generator\Rocks\StandardRock\Cube\CubeRockMeshGenerator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\Rock Builder\Assets\Scripts\Generator\Rocks\CustomRock\CustomRockService.cs" />
+    <Compile Include="Assets\Script\ButtonController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Rock Builder\Assets\Scripts\Generator\Rocks\CustomRock\CustomRockListIteration.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
@@ -129,6 +131,8 @@
     <Compile Include="Assets\Old Hangar\Demo\Script\ThirdPersonCamera.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\Rock Builder\Assets\Scripts\Generator\GemStones\Diamond\DiamondService.cs" />
+    <Compile Include="Assets\Script\typewriterUI.cs" />
+    <Compile Include="Assets\Script\PanelClose.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Script\PlayerInventory.cs" />
     <Compile Include="Assets\Rock Builder\Assets\Scripts\Generator\GemStones\Diamond\Diamond.cs" />
