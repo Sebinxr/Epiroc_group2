@@ -24,7 +24,7 @@ public class PlayerInventory : MonoBehaviour
         keyCount++;
         UpdateKeyCountText();
 
-        if (keyCount >= 2)
+        if (keyCount >= 5)
         {
             UnlockTeleportation();
         }
