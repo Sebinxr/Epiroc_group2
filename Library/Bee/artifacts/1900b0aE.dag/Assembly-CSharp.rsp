@@ -418,6 +418,7 @@
 "Assets/Script/ChangingScenes.cs"
 "Assets/Script/EnterCollider.cs"
 "Assets/Script/PlayerInventory.cs"
+"Assets/Script/RestartButton.cs"
 "Assets/Script/RoomChangeTrigger.cs"
 "Assets/Script/ScoreManager.cs"
 "Assets/Script/StoneScript.cs"
